@@ -278,6 +278,13 @@ ul#nav li.current a { color: #F06000; }
    padding-bottom: 72px;
    overflow: hidden;
 }
+#research
+{
+   background: #fff;
+   padding-top: 90px;
+   padding-bottom: 72px;
+   overflow: hidden;
+}
 .education, .work {
    margin-bottom: 48px;
    padding-bottom: 24px;
@@ -309,7 +316,7 @@ ul#nav li.current a { color: #F06000; }
 	padding: 0;
 	text-align: left;
 }
-.bars .skills {
+.bars .skills .research {
   	margin-top: 36px;
    list-style: none;
 }
