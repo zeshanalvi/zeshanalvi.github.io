@@ -1,0 +1,8 @@
+DirectoryIndex index.html
+ErrorDocument 404 error.html
+RewriteEngine On
+RewriteBase /
+RewriteCond %{HTTP_HOST} ^www.yourdomain.com [NC]
+RewriteRule ^(.*)$ http://yourdomain.com/$1 [L,R=301]
+RewriteRule ^/brands/(.*)$ /brands/$1.html [L]
+SetEnv TZ Asia/Karachi
