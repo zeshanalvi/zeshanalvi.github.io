@@ -1,4 +1,4 @@
-DirectoryIndex index.html
+DirectoryIndex index.html index.php
 ErrorDocument 404 error.html
 RewriteEngine On
 RewriteBase /
