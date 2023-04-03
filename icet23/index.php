@@ -18,32 +18,9 @@
 </head>
 
 <body>
-    <nav>
-      <a  href="#home"><img src="./assets/ICET-02-02.png" alt="Logo Image" width="180" ></a>
-      <div class="line-1">
-
-      </div>
-
-      <div class="Fast-logo">
-        <img src="./assets/nationaluniversityofcomputerandemergingscienceslogo-1-tVe.png">
-        <br>
-        <h5>29 - 30 NOVEMBER 2023 <br>INDUSTRIAL ESTATE</h5>
-      
-      </div>
-      <a class="btn-a"><button class="ms-auto">Registered Now</button></a>
-
-      <div class="line-2"></div>
-    </nav>
-      <br>      
-      <div class="nav-link">
-        <a href="#programme">PROGRAMME</a>
-        <a href="#authors">FOR AUTHORS</a>
-        <a href="#">CAMERA READY</a>
-        <a href="#">FAQ </a>
-        <a href="#">HISTORY</a>
-        <a href="#">CONTACT</a>
-      </div>
-      
+<?PHP
+include_once header.php;
+?>
       <br>
       <div class="bg-img" id="home">
         <h1>GET READY TO <br>GET ELECTRIC<br> AT ICET!</h1>
@@ -247,40 +224,8 @@
           <a href="#" class="auto-focus-a " ><button class="auto-focus get-pass" >Get Your Pass</button></a>
         </div>
         <br><br><br>
-      
-        <footer>
-          <div class="container-fluid" id="footer">
-            <div class="row">
-              <div class="col-md-3 sec-1">
-                <br><br>
-                <p>ABOUT <br>SPEAKERS<br> SCHEDULE<br> NEWS<br> GALLERY</p>
-              </div>
-              <div class="col-md-3 sec-2">
-                <p class="p-info">INFO</p>
-                <p> <br>SUBMISSION GUIDELINES<br> CALL FOR PAPERS<br> IMPORTANT DATES<br> ACCEPTED PAPERS<br> REGISTRATION</p>
-              </div>
-              <div class="col-md-3 sec-2">
-                <p class="p-info">GET SOCIAL</p>
-                <p> <br>FACEBOOK<br>TWITTER<br> INSTAGRAM<br> LINKEDIN</p>
-              </div>
-              <div class="col-md-3 sec-2">
-                <p class="p-info">JOIN US</p>
-                <label>EMAIL ADDRESS <span style="color: red;">*</span></label>
-                <input type="email">
-              </div>
+        <?PHP include_once header.php; ?>
 
-            </div>
-          </div>
-          <br><br>
-          <div class="line-3-wh2">
-
-          </div>
-          <div class="sec-3">
-            <img src="./assets/nationaluniversityofcomputerandemergingscienceslogo-1-tVe.png" width="80" height="80">
-            <p>Led by the National University of Computer<br>
-              and Emerging Sciences Peshawar</p>
-          </div>
-        </footer>
 
 
       <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
