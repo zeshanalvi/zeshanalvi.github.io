@@ -1,0 +1,465 @@
+
+nav{
+    display: flex;
+}
+nav a img{
+    height:200px;
+}
+.Fast-logo{
+    display: flex;
+    padding: 20px;
+    margin-left: 10px;
+
+}
+
+.Fast-logo img{
+    width: 100px;
+    height: 70px;
+    padding-left: 5px;
+    padding-right: 20px;
+}
+
+.Fast-logo h5{
+    margin-top: 10px;
+}
+.line-1{
+    width: 0.01rem;
+    height: 10.3001rem;
+    position: absolute;
+    left:175px;
+    top: 0;
+  background-color: #1d667e;
+}
+.line-2{
+    width: 85%;
+    height: 0.011rem;
+    position: absolute;
+    left:175px;
+    top: 6.6rem;
+    background-color: #1d667e;
+}
+.ms-auto{
+    width: 12.10rem;
+    height: 2.887rem;
+    font-size: 1.12rem;
+    font-weight: 700;
+    color: #000000;
+    font-family: Montserrat, 'Source Sans Pro';
+    background-color: #039acd;
+    border-radius: 0.2rem;
+    border-style: none;
+    margin-right: 30px;
+    margin-top: 20px;
+}
+.btn-a{
+    right: 0;
+   position: absolute;
+}
+.nav-link{
+    margin-left: 200px;
+    position: absolute;
+    top: 120px;
+}
+.nav-link a{
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 400;
+    color: black;
+    font-family: Montserrat, 'Source Sans Pro';
+    white-space: nowrap;
+    padding: 5px;
+    
+}
+.bg-img{
+    background-image: url("../assets/tech-conference-1.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 700px;
+    
+}
+.bg-img h1{
+  width:75%;
+  height: 20.1rem;
+  position: absolute;
+  left: 11.2rem;
+  top: 15.7rem;
+  display: flex;
+  font-size: 5.6rem;
+  font-weight:900;
+  letter-spacing: 1px;
+  font-family: Montserrat, 'Source Sans Pro';
+  color: #000000;
+}
+
+
+
+
+.timer {
+    font-size: 2rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0px;
+    right: 100px;
+  }
+  
+  .timer .span {
+    padding: 0.5rem;
+    background-color: #eee;
+    border-radius: 0.5rem;
+    margin: 0 0.5rem;
+  }
+  .dot{
+    color: white ;
+  }
+  .timer span:nth-child(even) {
+    background-color: #ccc;
+  }
+
+.peshawar-pakistan-hKE{
+    margin-top: 50px;
+  margin-bottom: 2.6rem;
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: #000000;
+  font-family: Montserrat, 'Source Sans Pro';
+  text-align: center;
+}
+.welcome-to-the-icet-2023-DoN{
+    margin-bottom: 20px;
+    font-size: 2.3rem;
+    font-weight: 900;
+    color: #000000;
+    font-family: Montserrat, 'Source Sans Pro';
+    text-align: center;
+  }
+.coming-29th-november-Lsz{
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: #000000;
+    font-family: Montserrat, 'Source Sans Pro';
+  
+    text-align: center;
+  }
+.edited{
+    flex-wrap: nowrap !important;
+}
+.participants{
+    
+    margin-right: 170px;
+    font-size: 17px;
+    text-align: center;
+}
+.papers{
+    margin-right: 210px;
+}
+
+.img img{
+    width:100%;
+}
+.img {
+    width: 50% !important;
+}
+.what-is-about{
+  font-size: 3.0rem;
+  font-weight: 900;
+  color: #000000;
+  font-family: Montserrat, 'Source Sans Pro';
+  text-align: center !important;
+}
+.what-is-about +p{
+    text-align: center;
+    letter-spacing: 1px;
+    
+}
+.vector img{
+    height: 300px;
+    width: 100%;
+    
+}
+.Ever-Expanding{
+  max-width: 20.8rem;
+  font-size: 2.6rem;
+  font-weight: 900;
+  color: #000000;
+  font-family: Montserrat, 'Source Sans Pro';
+  text-align: center;
+  height: 30px;
+
+}
+.Areas{
+    margin-left: 60px;
+    font-size: 17px;
+}
+.auto-focus{
+width: 280px;
+  height: 4.0rem;
+  font-size: 1.2rem;
+  font-weight: 900;
+  color: #000000;
+  font-family: Montserrat, 'Source Sans Pro';
+  align-items: center;
+  justify-content: center;
+  border: solid 0.3rem #121f27;
+  box-sizing: border-box;
+  border-radius: 0.3rem;
+  margin-left: 60px;
+  
+
+}
+.auto-focus-a{
+    text-decoration: none;
+}
+
+.Events{
+  font-size: 1rem;
+  font-weight: 500;
+  color: #ffffff;
+  font-family: Montserrat, 'Source Sans Pro';
+  background-color: #000000;
+  padding: 20px;
+  height: 95px;
+  margin: 0;
+}
+.Events+p{
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    padding: 20px;
+    margin: 0;
+    margin-bottom: 20px;
+    height: 170px;
+}
+.speakers {
+    
+    padding: 20px;
+}
+
+.Speakers{
+    font-size: 3.0rem;
+    font-weight: 900;
+    color: #000000;
+    font-family: Montserrat, 'Source Sans Pro';
+   
+}
+.speakers img+p{
+    font-size: 1.0rem;
+    font-weight: 900;
+    color: #000000;
+    font-family: Montserrat, 'Source Sans Pro';
+    text-align: center;
+}
+.speakers p{
+    text-align: center;
+}
+.speakers img{
+    width: 90%;
+}
+.see{
+    text-align: center;
+   
+}
+.get-pass{
+    width: 80% !important;
+
+}
+footer{
+    background-color: #000000;
+    padding: 20px;
+}
+.p-info{
+    margin-left: 40px !important;
+    padding-top: 110px !important;
+    width: 100%;
+    font-size: 1.0rem;
+    font-weight: 500;
+    color: #959595;
+    font-family: Montserrat, 'Source Sans Pro';
+  
+}
+.sec-2 label{
+    margin-left: 40px !important;
+    width: 100%;
+    font-size: 1.0rem;
+    font-weight: 500;
+    color: #959595;
+    font-family: Montserrat, 'Source Sans Pro';
+  
+}
+.p-info+p{
+  width: 100%;
+  font-size: 0.9rem;
+  font-weight: 900;
+  color: #ffffff;
+  font-family: Montserrat, 'Source Sans Pro';
+  margin-left: 20px !important;
+;
+}
+.sec-2 p{
+    margin: 0 ;
+    padding: 0;
+}
+.sec-1{
+
+  width: 100%;
+  font-size: 1.7rem;
+  font-weight: 900;
+  color: #ffffff;
+  font-family: Montserrat, 'Source Sans Pro';
+
+}
+.sec-2 input{
+  width: 100%;
+  height: 3.6rem;
+  border: solid 0.2rem #1d667e;
+  box-sizing: border-box;
+  border-radius: 0.5rem;
+    color: white;
+background-color: #000000;
+}
+.line-3-wh2{
+  margin-bottom: 3.403rem;
+  width: 100%;
+  height: 0.1rem;
+  background-color: #1d667e;
+  
+}
+.sec-3{
+    display: flex;
+    justify-content: space-between;
+}
+.sec-3 img {
+   
+    margin-left: 60px;
+}
+.sec-3 p{
+  font-size: 1.0rem;
+  font-weight: 300;
+  color: #ffffff;
+  font-family: Montserrat, 'Source Sans Pro';
+  margin-right:10px ;
+}
+@media screen and (max-width:992px){
+    .bg-img h1{
+        
+        font-size: 4.0rem;
+        font-weight:900;
+      }
+      
+    
+}
+
+@media screen and (max-width:768px){
+    .Fast-logo{
+        display: block;
+        padding-top: 10px !important;
+    }
+    .Fast-logo h5{
+        font-size: 15px;
+    }
+    
+    .line-2{
+        margin-top: 25px;
+    }
+    
+    .Fast-logo h5{
+        position: absolute;
+        top:80px;
+    }
+    .nav-link{
+        margin-top: 18px;
+    }
+    .bg-img h1{
+        
+        font-size: 3.0rem;
+        font-weight:900;
+        letter-spacing: 0px;
+        left: 3.2rem;
+        width: 80%;
+        
+      }
+      .ms-auto{
+        display: none;
+    }
+    .nav-link{
+       
+        margin-bottom: 60px !important;
+    }
+    .bg-img{
+        margin-top: 30px;
+    }
+    .line-2{
+        width: 75%;
+    }
+
+}
+
+@media screen and (max-width:500px){
+    .ms-auto{
+        width: 10.10rem;
+        height: 2.0rem;
+        font-size: 1rem;
+        
+    }
+    .btn-a{
+        margin-left: 10px;
+    }
+    .bg-img h1{
+        
+        font-size: 2.0rem;
+        font-weight:900;
+        letter-spacing: 0px;
+        left: 4.2rem;
+      }
+      .nav-link a{
+       
+        font-size: 10px;
+        padding: 3px;
+        
+    }
+
+    .line-2{
+        width: 50%;
+    }
+    .sec-3 img {
+   
+        margin-left: 0px;
+        margin-right: 20px;
+    }
+   
+      
+    
+}
+@media screen and (max-width:400px){
+    .bg-img h1{
+        font-size: 1.5rem;
+        font-weight:900;
+        letter-spacing: 0px;
+        left: 2.2rem;
+      }
+    .img img{
+        width: 300px;
+    }
+    .auto-focus{
+        margin-left: 0px;
+    }
+    .Fast-logo h5{
+        font-size: 13px;
+    }
+    .nav-link a{
+        font-size: 8px;
+        margin: 0px;
+        padding: 0px;
+    }
+    .line-1{
+        
+        height: 13.4001rem;
+    }
+    .timer{
+       position: absolute;
+       left: 20px;
+    }
+}
