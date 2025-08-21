@@ -37,6 +37,7 @@ class Scholarnet:
 
 
 net=Scholarnet(dblp_url="https://dblp.org/pid/290/7993.html")
+net=Scholarnet()
 G=net.extract_graph()
 
 
