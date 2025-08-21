@@ -1,0 +1,127 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 100%;
+                 height: 600px;
+                 background-color: #222222;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "#1f78b4", "font": {"color": "white"}, "id": "Shahid Allah Bakhsh", "label": "Shahid Allah Bakhsh", "shape": "dot", "size": 20}, {"color": "#1f78b4", "font": {"color": "white"}, "id": "Muhammad Shahbaz Khan", "label": "Muhammad Shahbaz Khan", "shape": "dot", "size": 10}, {"color": "#1f78b4", "font": {"color": "white"}, "id": "Oumaima Saidani", "label": "Oumaima Saidani", "shape": "dot", "size": 10}, {"color": "#1f78b4", "font": {"color": "white"}, "id": "Nada Alasbali", "label": "Nada Alasbali", "shape": "dot", "size": 10}, {"color": "#1f78b4", "font": {"color": "white"}, "id": "Syed Qasim Abbas", "label": "Syed Qasim Abbas", "shape": "dot", "size": 10}, {"color": "red", "font": {"color": "white"}, "id": "Muhammad Almas Khan", "label": "Muhammad Almas Khan", "shape": "dot", "size": 40}, {"color": "#1f78b4", "font": {"color": "white"}, "id": "Jawad Ahmad", "label": "Jawad Ahmad", "shape": "dot", "size": 40}, {"color": "#1f78b4", "font": {"color": "white"}, "id": "Fawad Ahmed", "label": "Fawad Ahmed", "shape": "dot", "size": 10}, {"color": "#1f78b4", "font": {"color": "white"}, "id": "Mohammed S. Alshehri", "label": "Mohammed S. Alshehri", "shape": "dot", "size": 10}, {"color": "#1f78b4", "font": {"color": "white"}, "id": "Hisham Ali", "label": "Hisham Ali", "shape": "dot", "size": 10}, {"color": "#1f78b4", "font": {"color": "white"}, "id": "Muazzam Ali Khan", "label": "Muazzam Ali Khan", "shape": "dot", "size": 20}, {"color": "#1f78b4", "font": {"color": "white"}, "id": "Sana Ullah Jan", "label": "Sana Ullah Jan", "shape": "dot", "size": 10}, {"color": "#1f78b4", "font": {"color": "white"}, "id": "Sajjad Shaukat Jamal", "label": "Sajjad Shaukat Jamal", "shape": "dot", "size": 10}, {"color": "#1f78b4", "font": {"color": "white"}, "id": "Awais Aziz Shah", "label": "Awais Aziz Shah", "shape": "dot", "size": 20}, {"color": "#1f78b4", "font": {"color": "white"}, "id": "Nikolaos Pitropakis", "label": "Nikolaos Pitropakis", "shape": "dot", "size": 10}, {"color": "#1f78b4", "font": {"color": "white"}, "id": "William J. Buchanan", "label": "William J. Buchanan", "shape": "dot", "size": 10}, {"color": "#1f78b4", "font": {"color": "white"}, "id": "Shahid Latif", "label": "Shahid Latif", "shape": "dot", "size": 10}, {"color": "#1f78b4", "font": {"color": "white"}, "id": "Mujeeb Ur Rehman", "label": "Mujeeb Ur Rehman", "shape": "dot", "size": 10}, {"color": "#1f78b4", "font": {"color": "white"}, "id": "Wadii Boulila", "label": "Wadii Boulila", "shape": "dot", "size": 10}, {"color": "#1f78b4", "font": {"color": "white"}, "id": "Maha Driss", "label": "Maha Driss", "shape": "dot", "size": 10}]);
+                  edges = new vis.DataSet([{"color": "#B1C3EB2C", "from": "Shahid Allah Bakhsh", "to": "Muhammad Shahbaz Khan", "width": 3}, {"color": "#B1C3EB2C", "from": "Shahid Allah Bakhsh", "to": "Oumaima Saidani", "width": 3}, {"color": "#B1C3EB2C", "from": "Shahid Allah Bakhsh", "to": "Nada Alasbali", "width": 3}, {"color": "#B1C3EB2C", "from": "Shahid Allah Bakhsh", "to": "Syed Qasim Abbas", "width": 3}, {"color": "#B1C3EB2C", "from": "Shahid Allah Bakhsh", "to": "Muhammad Almas Khan", "width": 6}, {"color": "#B1C3EB2C", "from": "Shahid Allah Bakhsh", "to": "Jawad Ahmad", "width": 6}, {"color": "#B1C3EB2C", "from": "Shahid Allah Bakhsh", "to": "Fawad Ahmed", "width": 3}, {"color": "#B1C3EB2C", "from": "Shahid Allah Bakhsh", "to": "Mohammed S. Alshehri", "width": 3}, {"color": "#B1C3EB2C", "from": "Shahid Allah Bakhsh", "to": "Hisham Ali", "width": 3}, {"color": "#B1C3EB2C", "from": "Muhammad Shahbaz Khan", "to": "Oumaima Saidani", "width": 3}, {"color": "#B1C3EB2C", "from": "Muhammad Shahbaz Khan", "to": "Nada Alasbali", "width": 3}, {"color": "#B1C3EB2C", "from": "Muhammad Shahbaz Khan", "to": "Syed Qasim Abbas", "width": 3}, {"color": "#B1C3EB2C", "from": "Muhammad Shahbaz Khan", "to": "Muhammad Almas Khan", "width": 3}, {"color": "#B1C3EB2C", "from": "Muhammad Shahbaz Khan", "to": "Jawad Ahmad", "width": 3}, {"color": "#B1C3EB2C", "from": "Oumaima Saidani", "to": "Nada Alasbali", "width": 3}, {"color": "#B1C3EB2C", "from": "Oumaima Saidani", "to": "Syed Qasim Abbas", "width": 3}, {"color": "#B1C3EB2C", "from": "Oumaima Saidani", "to": "Muhammad Almas Khan", "width": 3}, {"color": "#B1C3EB2C", "from": "Oumaima Saidani", "to": "Jawad Ahmad", "width": 3}, {"color": "#B1C3EB2C", "from": "Nada Alasbali", "to": "Syed Qasim Abbas", "width": 3}, {"color": "#B1C3EB2C", "from": "Nada Alasbali", "to": "Muhammad Almas Khan", "width": 3}, {"color": "#B1C3EB2C", "from": "Nada Alasbali", "to": "Jawad Ahmad", "width": 3}, {"color": "#B1C3EB2C", "from": "Syed Qasim Abbas", "to": "Muhammad Almas Khan", "width": 3}, {"color": "#B1C3EB2C", "from": "Syed Qasim Abbas", "to": "Jawad Ahmad", "width": 3}, {"color": "#B1C3EB2C", "from": "Muhammad Almas Khan", "to": "Jawad Ahmad", "width": 12}, {"color": "#B1C3EB2C", "from": "Muhammad Almas Khan", "to": "Fawad Ahmed", "width": 3}, {"color": "#B1C3EB2C", "from": "Muhammad Almas Khan", "to": "Mohammed S. Alshehri", "width": 3}, {"color": "#B1C3EB2C", "from": "Muhammad Almas Khan", "to": "Hisham Ali", "width": 3}, {"color": "#B1C3EB2C", "from": "Muhammad Almas Khan", "to": "Muazzam Ali Khan", "width": 6}, {"color": "#B1C3EB2C", "from": "Muhammad Almas Khan", "to": "Sana Ullah Jan", "width": 3}, {"color": "#B1C3EB2C", "from": "Muhammad Almas Khan", "to": "Sajjad Shaukat Jamal", "width": 3}, {"color": "#B1C3EB2C", "from": "Muhammad Almas Khan", "to": "Awais Aziz Shah", "width": 6}, {"color": "#B1C3EB2C", "from": "Muhammad Almas Khan", "to": "Nikolaos Pitropakis", "width": 3}, {"color": "#B1C3EB2C", "from": "Muhammad Almas Khan", "to": "William J. Buchanan", "width": 3}, {"color": "#B1C3EB2C", "from": "Muhammad Almas Khan", "to": "Shahid Latif", "width": 3}, {"color": "#B1C3EB2C", "from": "Muhammad Almas Khan", "to": "Mujeeb Ur Rehman", "width": 3}, {"color": "#B1C3EB2C", "from": "Muhammad Almas Khan", "to": "Wadii Boulila", "width": 3}, {"color": "#B1C3EB2C", "from": "Muhammad Almas Khan", "to": "Maha Driss", "width": 3}, {"color": "#B1C3EB2C", "from": "Jawad Ahmad", "to": "Fawad Ahmed", "width": 3}, {"color": "#B1C3EB2C", "from": "Jawad Ahmad", "to": "Mohammed S. Alshehri", "width": 3}, {"color": "#B1C3EB2C", "from": "Jawad Ahmad", "to": "Hisham Ali", "width": 3}, {"color": "#B1C3EB2C", "from": "Jawad Ahmad", "to": "Muazzam Ali Khan", "width": 6}, {"color": "#B1C3EB2C", "from": "Jawad Ahmad", "to": "Sana Ullah Jan", "width": 3}, {"color": "#B1C3EB2C", "from": "Jawad Ahmad", "to": "Sajjad Shaukat Jamal", "width": 3}, {"color": "#B1C3EB2C", "from": "Jawad Ahmad", "to": "Awais Aziz Shah", "width": 6}, {"color": "#B1C3EB2C", "from": "Jawad Ahmad", "to": "Nikolaos Pitropakis", "width": 3}, {"color": "#B1C3EB2C", "from": "Jawad Ahmad", "to": "William J. Buchanan", "width": 3}, {"color": "#B1C3EB2C", "from": "Jawad Ahmad", "to": "Shahid Latif", "width": 3}, {"color": "#B1C3EB2C", "from": "Jawad Ahmad", "to": "Mujeeb Ur Rehman", "width": 3}, {"color": "#B1C3EB2C", "from": "Jawad Ahmad", "to": "Wadii Boulila", "width": 3}, {"color": "#B1C3EB2C", "from": "Jawad Ahmad", "to": "Maha Driss", "width": 3}, {"color": "#B1C3EB2C", "from": "Fawad Ahmed", "to": "Mohammed S. Alshehri", "width": 3}, {"color": "#B1C3EB2C", "from": "Fawad Ahmed", "to": "Hisham Ali", "width": 3}, {"color": "#B1C3EB2C", "from": "Mohammed S. Alshehri", "to": "Hisham Ali", "width": 3}, {"color": "#B1C3EB2C", "from": "Muazzam Ali Khan", "to": "Sana Ullah Jan", "width": 3}, {"color": "#B1C3EB2C", "from": "Muazzam Ali Khan", "to": "Sajjad Shaukat Jamal", "width": 3}, {"color": "#B1C3EB2C", "from": "Muazzam Ali Khan", "to": "Awais Aziz Shah", "width": 6}, {"color": "#B1C3EB2C", "from": "Muazzam Ali Khan", "to": "Nikolaos Pitropakis", "width": 3}, {"color": "#B1C3EB2C", "from": "Muazzam Ali Khan", "to": "William J. Buchanan", "width": 3}, {"color": "#B1C3EB2C", "from": "Muazzam Ali Khan", "to": "Shahid Latif", "width": 3}, {"color": "#B1C3EB2C", "from": "Muazzam Ali Khan", "to": "Mujeeb Ur Rehman", "width": 3}, {"color": "#B1C3EB2C", "from": "Muazzam Ali Khan", "to": "Wadii Boulila", "width": 3}, {"color": "#B1C3EB2C", "from": "Muazzam Ali Khan", "to": "Maha Driss", "width": 3}, {"color": "#B1C3EB2C", "from": "Sana Ullah Jan", "to": "Sajjad Shaukat Jamal", "width": 3}, {"color": "#B1C3EB2C", "from": "Sana Ullah Jan", "to": "Awais Aziz Shah", "width": 3}, {"color": "#B1C3EB2C", "from": "Sana Ullah Jan", "to": "Nikolaos Pitropakis", "width": 3}, {"color": "#B1C3EB2C", "from": "Sana Ullah Jan", "to": "William J. Buchanan", "width": 3}, {"color": "#B1C3EB2C", "from": "Sajjad Shaukat Jamal", "to": "Awais Aziz Shah", "width": 3}, {"color": "#B1C3EB2C", "from": "Sajjad Shaukat Jamal", "to": "Nikolaos Pitropakis", "width": 3}, {"color": "#B1C3EB2C", "from": "Sajjad Shaukat Jamal", "to": "William J. Buchanan", "width": 3}, {"color": "#B1C3EB2C", "from": "Awais Aziz Shah", "to": "Nikolaos Pitropakis", "width": 3}, {"color": "#B1C3EB2C", "from": "Awais Aziz Shah", "to": "William J. Buchanan", "width": 3}, {"color": "#B1C3EB2C", "from": "Awais Aziz Shah", "to": "Shahid Latif", "width": 3}, {"color": "#B1C3EB2C", "from": "Awais Aziz Shah", "to": "Mujeeb Ur Rehman", "width": 3}, {"color": "#B1C3EB2C", "from": "Awais Aziz Shah", "to": "Wadii Boulila", "width": 3}, {"color": "#B1C3EB2C", "from": "Awais Aziz Shah", "to": "Maha Driss", "width": 3}, {"color": "#B1C3EB2C", "from": "Nikolaos Pitropakis", "to": "William J. Buchanan", "width": 3}, {"color": "#B1C3EB2C", "from": "Shahid Latif", "to": "Mujeeb Ur Rehman", "width": 3}, {"color": "#B1C3EB2C", "from": "Shahid Latif", "to": "Wadii Boulila", "width": 3}, {"color": "#B1C3EB2C", "from": "Shahid Latif", "to": "Maha Driss", "width": 3}, {"color": "#B1C3EB2C", "from": "Mujeeb Ur Rehman", "to": "Wadii Boulila", "width": 3}, {"color": "#B1C3EB2C", "from": "Mujeeb Ur Rehman", "to": "Maha Driss", "width": 3}, {"color": "#B1C3EB2C", "from": "Wadii Boulila", "to": "Maha Driss", "width": 3}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {"physics": {"enabled": true, "stabilization": {"enabled": true, "iterations": 500}, "barnesHut": {"springLength": 200, "springConstant": 0.02, "damping": 0.3}}};
+
+                  
+
+
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>
