@@ -1,0 +1,66 @@
+// data/research-papers.js
+
+const researchPapers = [
+  {
+    "authors": "<span style='font-weight:bold'>Khan, Z.</span>, & Tahir, M. A.",
+    "year": "2018",
+    "title": "Majority Voting of Heterogeneous Classifiers for Finding Abnormalities in the Gastro-Intestinal Tract",
+    "venue": "MediaEval"
+  },
+  {
+    "authors": "Waqas, M., <span style='font-weight:bold'>Khan, Z.</span>, Anjum, S., & Tahir, M. A.",
+    "year": "2020",
+    "title": "Lung-Wise Tuberculosis Analysis and Automatic CT Report Generation with Hybrid Feature and Ensemble Learning",
+    "venue": "CLEF (Working Notes)"
+  },
+  {
+    "authors": "Ali, S. M. F., Khan, M. T., Haider, S. U., Ahmed, T., <span style='font-weight:bold'>Khan, Z.</span>, & Tahir, M. A.",
+    "year": "2020",
+    "title": "Depth-Wise Separable Atrous Convolution for Polyps Segmentation in Gastro-Intestinal Tract",
+    "venue": "MediaEval"
+  },
+  {
+    "authors": "Khan, B., Syed, T., <span style='font-weight:bold'>Khan, Z.</span>, & Rafi, M.",
+    "year": "2020",
+    "title": "Textual analysis of End User License Agreement for red-flagging potentially malicious software",
+    "venue": "2020 International Conference on Electrical, Communication, and Computer Engineering (ICECCE), IEEE"
+  },
+  {
+    "authors": "Jha, D.,<span style='font-weight:bold'>Khan, Z.</span>, Ali, S., Hicks, S., Thambawita, V., Borgli, H., Smedsrud, P. H., ... & Halvorsen, P.",
+    "title": "A comprehensive analysis of classification methods in gastrointestinal endoscopy imaging.",
+    "journal": "Medical Image Analysis, 70, 102007.",
+    "venue": "Medical image analysis, 70, 102007.",
+    "year": "2021"
+},
+      {
+        "authors": "<span style='font-weight:bold'>Khan, Z.</span>, Khan, M., Yasin, M., Hassan, M., & Tahir, M. A.",
+        "title": "Medico 2021: Medical Image Augmentation and Segmentation using Combination of Segmentation Neural Networks.",
+        "venue": "MediaEval 2021",
+        "year": "2021"
+      },
+      {
+        "authors": "<span style='font-weight:bold'>Khan, Z.</span>, Naseer, U., & Tahir, M. A.",
+        "title": "Short Text Classification Using TF-IDF Features and Fast Text Learner.",
+        "venue": "MediaEval 2021",
+        "year": "2021"
+      },
+      {
+        "authors": "<span style='font-weight:bold'>Khan, Z.</span>, Alvi, M. U. T., Tahir, M. A., & Memon, S.",
+        "title": "Medical diagnostic by data bagging for various instances of neural network.",
+        "venue": "In International Conference on Pattern Recognition (pp. 291-298). Springer, Cham. (2021, January)",
+        "year":"2021"
+      },
+      {
+        "authors": "Siddiqui, A., Ahmed, A., Saleem, A. F., <span style='font-weight:bold'>Alvi, Z. K.</span>, Alam, T., & Qureshi, R.",
+        "title": "Attention based covid-19 detection using generative adversarial network.",
+        "venue": "In 2021 4th International Conference on Computing & Information Sciences (ICCIS) (pp. 01-06). IEEE. (2021, November)",
+        "year": "2021"
+      },
+      {
+        "authors": "<span style='font-weight:bold'>Khan, Z.</span>, Yasin, M., Tahir, M. A., & Khalid, A. B.",
+        "title": "Voting Neural Network (VNN) for Endoscopic Image Segmentation.",
+        "venue": "In 2022 International Conference on Emerging Trends in Smart Technologies (ICETST) (pp. 1-6). IEEE. (2022, September)",
+        "year": "2022"
+      }
+
+];
