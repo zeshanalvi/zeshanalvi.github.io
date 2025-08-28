@@ -61,6 +61,30 @@ const researchPapers = [
         "title": "Voting Neural Network (VNN) for Endoscopic Image Segmentation.",
         "venue": "In 2022 International Conference on Emerging Trends in Smart Technologies (ICETST) (pp. 1-6). IEEE. (2022, September)",
         "year": "2022"
-      }
+      },
+      {
+        "authors":"<span style='font-weight:bold'>Khan, Z.</span>, MA Khan, A Wahab, U Musharaf",
+        "title":"GADNN: Gender and Age Detector Neural Network",
+        "venue":"2023 18th International Conference on Emerging Technologies (ICET)",
+        "year":"2023"
+      },
+      {
+        "authors":"M Waqas, <span style='font-weight:bold'>Khan, Z.</span>, SU Ahmed, A Raza",
+        "title":"MIL-Mixer: A Robust Bag Encoding Strategy for Multiple Instance Learning (MIL) using MLP-Mixer",
+        "venue":"2023 18th International Conference on Emerging Technologies (ICET),",
+        "year":"2023"
+      },
+      {
+        "authors":"<span style='font-weight:bold'>Khan, Z.</span>, MA Tahir",
+        "title":"Real time anatomical landmarks and abnormalities detection in gastrointestinal tract",
+        "venue":"PeerJ Computer Science",
+        "year":"2023",
+      },
+      {
+        "authors":"D Jha, others,<span style='font-weight:bold'>Khan, Z.</span>",
+        "title":"Validating polyp and instrument segmentation methods in colonoscopy through Medico 2020 and MedAI 2021 Challenges",
+        "venue":"Medical Image Analysis",
+        "year":"2025",
+      },
 
 ];
