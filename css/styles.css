@@ -1,0 +1,22 @@
+strong{
+    font-weight: bold;
+}
+p{
+    text-align: justify;
+}
+b{
+    font-weight: bold;
+}
+#experience{
+    color: #A8A8A8;
+}
+#experience h1,h3,h4{
+    color: #A8A8A8;
+}
+
+.experience-item li{
+    text-align: justify;
+}
+.experience-item li:before {
+  content: '✓ ';
+}

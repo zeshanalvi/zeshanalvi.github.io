@@ -85,6 +85,21 @@ const researchPapers = [
         "title":"Validating polyp and instrument segmentation methods in colonoscopy through Medico 2020 and MedAI 2021 Challenges",
         "venue":"Medical Image Analysis",
         "year":"2025",
-      },
+      }
 
 ];
+
+const paperscontainer = document.getElementById("papers-container");
+
+researchPapers.forEach(elem => {
+  const subdiv = document.createElement("div");
+  subdiv.classList.add("paper-item");
+
+  subdiv.innerHTML = `
+    <p>${elem.authors} (${elem.year})
+    <strong>${elem.title}</strong>
+    <em>${elem.venue}</em></p>
+    <hr/>
+  `;
+  paperscontainer.appendChild(subdiv);
+});

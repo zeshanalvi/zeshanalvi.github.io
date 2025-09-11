@@ -238,14 +238,6 @@ ul#nav li.current a { color: #F06000; }
 #education {
    background: #fff;
    padding-top: 90px;
-   padding-bottom: 72px;
-   overflow: hidden;
-}
-#education {
-   background: #fff;
-   padding-top: 90px;
-   padding-bottom: 72px;
-   overflow: hidden;
 }
 
 #education a, #education a:visited  { color: #11ABB0; }

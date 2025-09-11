@@ -1,7 +1,7 @@
 // js/script.js
 
 // Make sure researchPapers is already loaded from research-papers.js
-const container = document.getElementById("papers-container");
+const paperscontainer = document.getElementById("papers-container");
 
 researchPapers.forEach(paper => {
   const paperDiv = document.createElement("div");
@@ -14,5 +14,5 @@ researchPapers.forEach(paper => {
     <hr/>
   `;
 
-  container.appendChild(paperDiv);
+  paperscontainer.appendChild(paperDiv);
 });
