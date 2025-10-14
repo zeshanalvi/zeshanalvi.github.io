@@ -7,10 +7,13 @@ p{
 b{
     font-weight: bold;
 }
-#experience{
+#experience, #courses {
     color: #A8A8A8;
 }
 #experience h1,h3,h4{
+    color: #A8A8A8;
+}
+#courses h1,h3,h4{
     color: #A8A8A8;
 }
 

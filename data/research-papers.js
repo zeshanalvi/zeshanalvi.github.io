@@ -89,17 +89,17 @@ const researchPapers = [
 
 ];
 
-const paperscontainer = document.getElementById("papers-container");
+//const paperscontainer = document.getElementById("papers-container");
+const paperscontainer = document.getElementById("paper-list");
 
 researchPapers.forEach(elem => {
-  const subdiv = document.createElement("div");
+  const subdiv = document.createElement("li");
   subdiv.classList.add("paper-item");
 
   subdiv.innerHTML = `
-    <p>${elem.authors} (${elem.year})
+    ${elem.authors} (${elem.year})
     <strong>${elem.title}</strong>
-    <em>${elem.venue}</em></p>
-    <hr/>
+    <em>${elem.venue}</em>
   `;
   paperscontainer.appendChild(subdiv);
 });

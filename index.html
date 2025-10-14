@@ -182,32 +182,19 @@
 			</div> <!-- main-col end -->
 
       </div> <!-- End Research Row -->
-      
-      <!-- main-col end -->
 
-   	</section>
-
-
-
-    
-	<section id="training">
-
-      <!-- Research
-      ----------------------------------------------- -->
-      <div class="row training">
+      <div class="row training"> <!--row class removed-->
 
          <div class="three columns header-col">
             <h1>Trainings</h1>
          </div>
 
-         <div class="nine columns main-col">
-		 
-			<div class="row item" id="training-list">
+         <div class="nine columns main-col">            
+            <div class="row item" id="training-degrees">
             <div class="twelve columns" id="training-container">
                <!-- JSON content will be inserted here -->
             </div>
          </div>
-
 			</div> <!-- main-col end -->
 
       </div> <!-- End Research Row -->
@@ -217,6 +204,7 @@
    	</section>
 
 
+
 	<section id="skills">
 
       <!-- Research
@@ -224,7 +212,7 @@
       <div class="row skill">
 
          <div class="three columns header-col">
-            <h1>Experience</h1>
+            <h1>Skills</h1>
          </div>
 
          <div class="nine columns main-col">
@@ -267,6 +255,35 @@
 
       </div> <!-- End Research Row -->
       
+      <div class="row experience">
+
+         <div class="three columns header-col">
+            <h1>Courses Designed</h1>
+         </div>
+
+         <div class="nine columns main-col">            
+            <ol id="coursed-list">               
+            </ol>
+
+			</div> <!-- main-col end -->
+
+      </div> <!-- End Research Row -->
+
+      
+      <div class="row experience">
+
+         <div class="three columns header-col">
+            <h1>Courses Taught</h1>
+         </div>
+
+         <div class="nine columns main-col">            
+            <ol id="course-list">               
+            </ol>
+
+			</div> <!-- main-col end -->
+
+      </div> <!-- End Research Row -->
+
       <!-- main-col end -->
 
    	</section>
@@ -282,21 +299,25 @@
          </div>
 
          <div class="nine columns main-col">
-		 
-			<div class="row item" id="research-papers">
-            <div class="twelve columns" id="papers-container">
-               <!-- JSON content will be inserted here -->
-            </div>
-         </div>
+            <ol id="paper-list">
+               
+            </ol>
 
 			</div> <!-- main-col end -->
 
       </div> <!-- End Research Row -->
 
-
+      
       <div class="row research">
          <div class="twelve columns header-col">
-            <iframe width="1000" height="750" src="research_network.html"></iframe>
+            <div style="position: relative; width: 100%; padding-bottom: 75%; height: 0; overflow: hidden;">
+            <iframe 
+               src="research_network.html" 
+               style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;" 
+               allowfullscreen 
+               loading="lazy">
+            </iframe>
+            </div>
          </div>
       </div>
       <div class="row research">
@@ -307,97 +328,33 @@
 
    	</section>
 	
-	<section id="research" style="display:none;">
+      
+
+<section id="aise" style="min-height: 500px;">
 
       <!-- Research
       ----------------------------------------------- -->
-      <div class="row research">
+      <div class="row aise">
 
          <div class="three columns header-col">
-            <h1><span>Research</span></h1>
+            <h1>Artificial Intellegence for Software Engineering</h1>
          </div>
 
          <div class="nine columns main-col">
-
-            <div class="row item">
-
-               <div class="twelve columns">
-
-                  <h3>Muhammad Ali Jinnah University Islamabad</h3>
-                  <p class="info">Jr. Lecturer<span>&bull;</span> <em class="date">September 2013 - Present</em></p>
-
-                  <p>
-                  Teaching the lab content of multiple programming subjects in different semesters.
-                  <ul>
-                  <li>Computer Programming (C++)</li>
-                  <li>Web Application Development (ASP. Net C#)</li>
-                  <li>Object Oriented Programming (C++)</li>
-                  <li>Database Management Systems (Mysql, PHP, HTML)</li>
-                  <li>Data Structures (C++)</li>
-                  <li>System Programming (C, C++, Linux)</li>
-                  <li>Advance Computer Programming (Java SE)</li>
-                  </ul>
-                  </p>
-
-               </div>
-
-            </div> <!-- item end -->
-
-            <div class="row item">
-
-               <div class="twelve columns">
-
-                  <h3>AZ Academy</h3>
-                  <p class="info">Lecturer and CEO<span>&bull;</span> <em class="date">January 2009 - Present</em></p>
-
-                  <p>
-                  I am responsible for delivering lectures and managing the Lecturers team for different classes of students starting from Matriculation to F.Sc. A home tuition is being provided for the students of Matriculation to BS in multiple programming related subjects like C++, Java SE, ASP .net.
-                  </p>
-
-               </div>
-
-            </div> <!-- item end -->
-            
-            <div class="row item">
-
-               <div class="twelve columns">
-
-                  <h3>NEO Global</h3>
-                  <p class="info">Web Developer <span>&bull;</span> <em class="date">January 2012 - December 2013</em></p>
-
-                  <p>
-                  Developed many applications using open source dechnologies like PHP with its different frameworks (CodeIgneter, Wordpress, Zend 2.0) and custom development and multiple APIs (Twitter, Facebook, Google APIs) with an interactive and responsive designe using HTML5, CSS3 and bootstrap.
-                  I was responsible for the company website and employees accounts management.
-                  </p>
-
-               </div>
-
-            </div> <!-- item end -->
-
-         </div> <!-- main-col end -->
-
-      </div> <!-- End Work -->
-     </section>
-      
- <!-- AISE
-      ----------------------------------------------- -->
-      <div class="row research">
-
-         <div class="three columns header-col">
-            <h1><span>AISE</span></h1>
+			<div class="row item" id="aise">
+            <div class="twelve columns" id="skill-container">
+               <!-- JSON content will be inserted here -->
+            </div>
          </div>
 
-         <div class="nine columns main-col">
+			</div> <!-- main-col end -->
 
-            <div class="row item">
-
-            </div> <!-- item end -->
-
-         </div> <!-- main-col end -->
-
-      </div> <!-- End AISE -->
-     </section>
+      </div> <!-- End Research Row -->
       
+      <!-- main-col end -->
+
+   	</section>
+
    <!-- footer
    ================================================== -->
    <footer>
@@ -439,10 +396,12 @@
    <script src="js/init.js"></script>
    <script src="data/research-papers.js"></script>
    <script src="data/education.js"></script>
+   <script src="data/training.js"></script>
    <script src="data/experience.js"></script>
+   <script src="data/courses.js"></script>
+   <script src="data/coursed.js"></script>
 </body>
 
 </html>
-
 
 
