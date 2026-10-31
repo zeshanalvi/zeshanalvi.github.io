@@ -1,0 +1,2583 @@
+{
+  "nodes": [
+    {
+      "id": "FG2",
+      "label": "Trust formation and revision",
+      "group": "Finding",
+      "title": "Finding group: Trust formation and revision\n1 finding(s) from 1 paper(s)\n\n• FND-155 Safeguard cost trade-offs [Migliarini et al. (2026)]",
+      "color": "#54A24B",
+      "shape": "diamond",
+      "value": 1
+    },
+    {
+      "id": "FG3",
+      "label": "Verification effort and limits",
+      "group": "Finding",
+      "title": "Finding group: Verification effort and limits\n1 finding(s) from 1 paper(s)\n\n• FND-151 Run-based verification [Long et al. (2026)]",
+      "color": "#54A24B",
+      "shape": "diamond",
+      "value": 1
+    },
+    {
+      "id": "FG4",
+      "label": "Gains and named risks",
+      "group": "Finding",
+      "title": "Finding group: Gains and named risks\n1 finding(s) from 1 paper(s)\n\n• FND-163 Named risks [Torun et al. (2026)]",
+      "color": "#54A24B",
+      "shape": "diamond",
+      "value": 1
+    },
+    {
+      "id": "FG10",
+      "label": "Output problems, felt productivity",
+      "group": "Finding",
+      "title": "Finding group: Output problems, felt productivity\n1 finding(s) from 1 paper(s)\n\n• FND-149 Felt more productive [Long et al. (2026)]",
+      "color": "#54A24B",
+      "shape": "diamond",
+      "value": 1
+    },
+    {
+      "id": "FG11",
+      "label": "Subgroup effects, seniority",
+      "group": "Finding",
+      "title": "Finding group: Subgroup effects, seniority\n1 finding(s) from 1 paper(s)\n\n• FND-157 Bloat, selective acceptance [Hassan et al. (2026)]",
+      "color": "#54A24B",
+      "shape": "diamond",
+      "value": 1
+    },
+    {
+      "id": "FG17",
+      "label": "Augmentation forms, joint tools",
+      "group": "Finding",
+      "title": "Finding group: Augmentation forms, joint tools\n1 finding(s) from 1 paper(s)\n\n• FND-158 Intent-centric SE 3.0 [Hassan et al. (2026)]",
+      "color": "#54A24B",
+      "shape": "diamond",
+      "value": 1
+    },
+    {
+      "id": "FG20",
+      "label": "Prompt-layer engineering",
+      "group": "Finding",
+      "title": "Finding group: Prompt-layer engineering\n3 finding(s) from 1 paper(s)\n\n• FND-154 Versioned, auditable prompts [Migliarini et al. (2026)]\n• FND-152 Four recurring problems [Migliarini et al. (2026)]\n• FND-153 Prompt-layer limits [Migliarini et al. (2026)]",
+      "color": "#54A24B",
+      "shape": "diamond",
+      "value": 3
+    },
+    {
+      "id": "FG22",
+      "label": "Tool limits, steerability",
+      "group": "Finding",
+      "title": "Finding group: Tool limits, steerability\n2 finding(s) from 2 paper(s)\n\n• FND-150 Backtracking patterns [Long et al. (2026)]\n• FND-156 SE 2.0 limits [Hassan et al. (2026)]",
+      "color": "#54A24B",
+      "shape": "diamond",
+      "value": 2
+    },
+    {
+      "id": "FG25",
+      "label": "Needs, taxonomies, teaching prompting",
+      "group": "Finding",
+      "title": "Finding group: Needs, taxonomies, teaching prompting\n1 finding(s) from 1 paper(s)\n\n• FND-159 Challenges, open questions [Hassan et al. (2026)]",
+      "color": "#54A24B",
+      "shape": "diamond",
+      "value": 1
+    },
+    {
+      "id": "FG37",
+      "label": "Agent workflow, evaluation challenges",
+      "group": "Finding",
+      "title": "Finding group: Agent workflow, evaluation challenges\n2 finding(s) from 1 paper(s)\n\n• FND-161 Proposed agent workflow [Torun et al. (2026)]\n• FND-160 Nine bug-tracking challenges [Torun et al. (2026)]",
+      "color": "#54A24B",
+      "shape": "diamond",
+      "value": 2
+    },
+    {
+      "id": "FG38",
+      "label": "Tool-dependent edit modes",
+      "group": "Finding",
+      "title": "Finding group: Tool-dependent edit modes\n1 finding(s) from 1 paper(s)\n\n• FND-148 Tool-dependent acceptance [Long et al. (2026)]",
+      "color": "#54A24B",
+      "shape": "diamond",
+      "value": 1
+    },
+    {
+      "id": "GG1",
+      "label": "Early-adopter samples",
+      "group": "Gap",
+      "title": "Gap group: Early-adopter samples\n4 gap(s) from 4 paper(s)\n\n• GAP-108 Small early-adopter sample [Kam et al. (2025)]\n• GAP-117 Homogeneous early adopters [Tabarsi et al. (2026)]\n• GAP-031 Public early adopters [Baumann et al. (2026)]\n• GAP-035 Opt-in early adopters [Tang et al. (2026)]",
+      "color": "#E45756",
+      "shape": "triangle",
+      "value": 4
+    },
+    {
+      "id": "GG2",
+      "label": "Cross-sectional single-firm data",
+      "group": "Gap",
+      "title": "Gap group: Cross-sectional single-firm data\n3 gap(s) from 3 paper(s)\n\n• GAP-015 Association, not cause [Murphy-Hill et al. (2026)]\n• GAP-081 Cross-sectional, two firms [Choudhuri et al. (2025)]\n• GAP-097 Single-company, self-reported [Choudhuri et al. (2026)]",
+      "color": "#E45756",
+      "shape": "triangle",
+      "value": 3
+    },
+    {
+      "id": "GG3",
+      "label": "Self-selected, self-reported samples",
+      "group": "Gap",
+      "title": "Gap group: Self-selected, self-reported samples\n2 gap(s) from 2 paper(s)\n\n• GAP-085 Self-reported global sample [Giray et al. (2026)]\n• GAP-075 Self-reported, English, corporate [Klemmer et al. (2024)]",
+      "color": "#E45756",
+      "shape": "triangle",
+      "value": 2
+    },
+    {
+      "id": "GG4",
+      "label": "Narrow organisation or enthusiast samples",
+      "group": "Gap",
+      "title": "Gap group: Narrow organisation or enthusiast samples\n4 gap(s) from 4 paper(s)\n\n• GAP-089 One public organisation [Stray et al. (2025)]\n• GAP-120 Self-reported convenience sample [O'Brien (2025)]\n• GAP-028 AI-positive narrow sample [Huang et al. (2026)]\n• GAP-053 Enthusiast sample, dated [Liang et al. (2024)]",
+      "color": "#E45756",
+      "shape": "triangle",
+      "value": 4
+    },
+    {
+      "id": "GG5",
+      "label": "Saved-time destination",
+      "group": "Gap",
+      "title": "Gap group: Saved-time destination\n3 gap(s) from 3 paper(s)\n\n• GAP-013 Efficiency, not total [Heilman et al. (2026)]\n• GAP-010 Saved-time destination [Cui et al. (2026)]\n• GAP-099 Saved-time destination [Choudhuri et al. (2026)]",
+      "color": "#E45756",
+      "shape": "triangle",
+      "value": 3
+    },
+    {
+      "id": "GG6",
+      "label": "Trust and role drift over time",
+      "group": "Gap",
+      "title": "Gap group: Trust and role drift over time\n5 gap(s) from 5 paper(s)\n\n• GAP-076 Blind-trust drift [Klemmer et al. (2024)]\n• GAP-098 Transferability, repeat measurement [Choudhuri et al.\n(2026)]\n• GAP-091 Workflow evolution, trust [Stray et al. (2025)]\n• GAP-072 Role evolution, onboarding [Zakharov et al. (2025)]\n• GAP-080 Longitudinal trust evolution [Sabouri et al. (2025)]",
+      "color": "#E45756",
+      "shape": "triangle",
+      "value": 5
+    },
+    {
+      "id": "GG7",
+      "label": "Learning versus reliance",
+      "group": "Gap",
+      "title": "Gap group: Learning versus reliance\n3 gap(s) from 3 paper(s)\n\n• GAP-149 Learning versus reliance [Long et al. (2026)]\n• GAP-048 Learning loop unmeasured [Ulfsnes et al. (2024)]\n• GAP-113 Learning unmeasured [Nguyen et al. (2024)]",
+      "color": "#E45756",
+      "shape": "triangle",
+      "value": 3
+    },
+    {
+      "id": "GG8",
+      "label": "Expertise redistribution, validation",
+      "group": "Gap",
+      "title": "Gap group: Expertise redistribution, validation\n5 gap(s) from 5 paper(s)\n\n• GAP-088 Expertise redistribution [Giray et al. (2026)]\n• GAP-129 Untested expertise claims [Amalfitano et al. (2026)]\n• GAP-029 Single-session observation [Huang et al. (2026)]\n• GAP-082 Longitudinal, GenAI-specific constructs [Choudhuri et al.\n(2025)]\n• GAP-104 Objective, longitudinal validation [Nguyen-Duc & Khanna\n(2024)]",
+      "color": "#E45756",
+      "shape": "triangle",
+      "value": 5
+    },
+    {
+      "id": "GG9",
+      "label": "Long-term quality outcomes",
+      "group": "Gap",
+      "title": "Gap group: Long-term quality outcomes\n4 gap(s) from 4 paper(s)\n\n• GAP-060 Long-term quality outcomes [Wu et al. (2026)]\n• GAP-135 Acceptance-only success [Watanabe et al. (2026)]\n• GAP-016 Short horizon [Murphy-Hill et al. (2026)]\n• GAP-018 Short-term only [Borg et al. (2026)]",
+      "color": "#E45756",
+      "shape": "triangle",
+      "value": 4
+    },
+    {
+      "id": "GG10",
+      "label": "Hidden code, bloat, practice evidence",
+      "group": "Gap",
+      "title": "Gap group: Hidden code, bloat, practice evidence\n4 gap(s) from 4 paper(s)\n\n• GAP-145 Workplace demand untested [Moreno-Lumbreras et al. (2026)]\n• GAP-157 Hidden-code acceptance [Hassan et al. (2026)]\n• GAP-020 Bloat, cognitive debt [Borg et al. (2026)]\n• GAP-131 No practice evidence [Brun et al. (2026)]",
+      "color": "#E45756",
+      "shape": "triangle",
+      "value": 4
+    },
+    {
+      "id": "GG11",
+      "label": "Weak outcome and load measures",
+      "group": "Gap",
+      "title": "Gap group: Weak outcome and load measures\n4 gap(s) from 4 paper(s)\n\n• GAP-069 Subjective load measures [Brandebusemeyer et al. (2026)]\n• GAP-144 Seven-part agenda [Moreno-Lumbreras et al. (2026)]\n• GAP-012 Narrow outcome measure [Heilman et al. (2026)]\n• GAP-032 Abandoned sessions missing [Baumann et al. (2026)]",
+      "color": "#E45756",
+      "shape": "triangle",
+      "value": 4
+    },
+    {
+      "id": "GG12",
+      "label": "Effects and reasons unasked",
+      "group": "Gap",
+      "title": "Gap group: Effects and reasons unasked\n5 gap(s) from 5 paper(s)\n\n• GAP-034 Pushback reasons hidden [Baumann et al. (2026)]\n• GAP-040 Effects, reasons unasked [Hao et al. (2024)]\n• GAP-009 Code quality effects [Cui et al. (2026)]\n• GAP-139 Effects, not use [Li et al. (2026)]\n• GAP-071 Roles versus outcomes [Zakharov et al. (2025)]",
+      "color": "#E45756",
+      "shape": "triangle",
+      "value": 5
+    },
+    {
+      "id": "GG13",
+      "label": "Researcher-set short tasks",
+      "group": "Gap",
+      "title": "Gap group: Researcher-set short tasks\n3 gap(s) from 3 paper(s)\n\n• GAP-055 Short Python tasks [Mozannar et al. (2024)]\n• GAP-051 Researcher-set authorship tasks [Barke et al. (2023)]\n• GAP-061 Student, timed tasks [Chen et al. (2025)]",
+      "color": "#E45756",
+      "shape": "triangle",
+      "value": 3
+    },
+    {
+      "id": "GG14",
+      "label": "Student samples, short tasks",
+      "group": "Gap",
+      "title": "Gap group: Student samples, short tasks\n4 gap(s) from 4 paper(s)\n\n• GAP-022 Students, short tasks [Chen et al. (2026)]\n• GAP-052 Academic, novice sample [Barke et al. (2023)]\n• GAP-073 Student sample [Perry et al. (2023)]\n• GAP-057 Value beyond correctness [Mozannar et al. (2024)]",
+      "color": "#E45756",
+      "shape": "triangle",
+      "value": 4
+    },
+    {
+      "id": "GG15",
+      "label": "Shared public chats only",
+      "group": "Gap",
+      "title": "Gap group: Shared public chats only\n3 gap(s) from 3 paper(s)\n\n• GAP-138 Shared public chats [Li et al. (2026)]\n• GAP-038 Shared chats only [Hao et al. (2024)]\n• GAP-041 Shared issue chats [Ehsani et al. (2026)]",
+      "color": "#E45756",
+      "shape": "triangle",
+      "value": 3
+    },
+    {
+      "id": "GG16",
+      "label": "Wider users, tools, agents",
+      "group": "Gap",
+      "title": "Gap group: Wider users, tools, agents\n4 gap(s) from 3 paper(s)\n\n• GAP-062 Wider users, tools [Chen et al. (2025)]\n• GAP-063 Better proactive triggers [Chen et al. (2025)]\n• GAP-077 General-purpose assistant security [Klemmer et al. (2024)]\n• GAP-147 Agent interaction uncovered [Long et al. (2026)]",
+      "color": "#E45756",
+      "shape": "triangle",
+      "value": 4
+    },
+    {
+      "id": "GG17",
+      "label": "Setting-bound gains",
+      "group": "Gap",
+      "title": "Gap group: Setting-bound gains\n2 gap(s) from 2 paper(s)\n\n• GAP-001 Setting-bound sample [Becker et al. (2025)]\n• GAP-007 Why gains differ [Paradis et al. (2025)]",
+      "color": "#E45756",
+      "shape": "triangle",
+      "value": 2
+    },
+    {
+      "id": "GG18",
+      "label": "Newer agents, narrow tasks",
+      "group": "Gap",
+      "title": "Gap group: Newer agents, narrow tasks\n5 gap(s) from 5 paper(s)\n\n• GAP-064 Newer agents untested [Ziegler et al. (2026)]\n• GAP-134 Enthusiastic early phase [Watanabe et al. (2026)]\n• GAP-005 Narrow task setting [Paradis et al. (2025)]\n• GAP-047 Single student team [Liukko et al. (2024)]\n• GAP-074 Current models untested [Perry et al. (2023)]",
+      "color": "#E45756",
+      "shape": "triangle",
+      "value": 5
+    },
+    {
+      "id": "GG19",
+      "label": "Single-university sessions",
+      "group": "Gap",
+      "title": "Gap group: Single-university sessions\n3 gap(s) from 2 paper(s)\n\n• GAP-148 Low-interaction students [Long et al. (2026)]\n• GAP-122 Single-university snapshot [Saari et al. (2024)]\n• GAP-146 Single-university lab sessions [Long et al. (2026)]",
+      "color": "#E45756",
+      "shape": "triangle",
+      "value": 3
+    },
+    {
+      "id": "GG20",
+      "label": "Single-tool, prompt-dependent results",
+      "group": "Gap",
+      "title": "Gap group: Single-tool, prompt-dependent results\n4 gap(s) from 4 paper(s)\n\n• GAP-065 One research system [Ziegler et al. (2026)]\n• GAP-021 Two tools only [Chen et al. (2026)]\n• GAP-002 Learning, tool maturity [Becker et al. (2025)]\n• GAP-068 Single tool, company [Brandebusemeyer et al. (2026)]",
+      "color": "#E45756",
+      "shape": "triangle",
+      "value": 4
+    },
+    {
+      "id": "GG21",
+      "label": "Model change, dated snapshots",
+      "group": "Gap",
+      "title": "Gap group: Model change, dated snapshots\n4 gap(s) from 4 paper(s)\n\n• GAP-045 Unknown models, prompts [Tufano et al. (2026)]\n• GAP-141 Evolving usage, models [Li et al. (2026)]\n• GAP-111 Mid-study tool change [Nguyen et al. (2024)]\n• GAP-118 2023 tool snapshot [Tabarsi et al. (2026)]",
+      "color": "#E45756",
+      "shape": "triangle",
+      "value": 4
+    },
+    {
+      "id": "GG22",
+      "label": "Token spend and pricing",
+      "group": "Gap",
+      "title": "Gap group: Token spend and pricing\n4 gap(s) from 4 paper(s)\n\n• GAP-004 Token budgets unstudied [Becker et al. (2025)]\n• GAP-017 Value per token [Murphy-Hill et al. (2026)]\n• GAP-103 Pricing effects unstudied [Sergeyuk et al. (2026)]\n• GAP-153 Spend tracking unstudied [Migliarini et al. (2026)]",
+      "color": "#E45756",
+      "shape": "triangle",
+      "value": 4
+    },
+    {
+      "id": "GG23",
+      "label": "Causal depth, confounding",
+      "group": "Gap",
+      "title": "Gap group: Causal depth, confounding\n1 gap(s) from 1 paper(s)\n\n• GAP-116 Depth, causal testing [Zacharias et al. (2026)]",
+      "color": "#E45756",
+      "shape": "triangle",
+      "value": 1
+    },
+    {
+      "id": "GG24",
+      "label": "Small samples, single sessions",
+      "group": "Gap",
+      "title": "Gap group: Small samples, single sessions\n5 gap(s) from 5 paper(s)\n\n• GAP-019 Individual, small system [Borg et al. (2026)]\n• GAP-070 Teams, personality, modes [Brandebusemeyer et al. (2026)]\n• GAP-137 Guideline files unstudied [Watanabe et al. (2026)]\n• GAP-079 Small Python samples [Sabouri et al. (2025)]\n• GAP-142 Small, single-file sessions [Moreno-Lumbreras et al. (2026)]",
+      "color": "#E45756",
+      "shape": "triangle",
+      "value": 5
+    },
+    {
+      "id": "GG25",
+      "label": "Transferability, quantitative data",
+      "group": "Gap",
+      "title": "Gap group: Transferability, quantitative data\n2 gap(s) from 2 paper(s)\n\n• GAP-066 Single preset case [Subramonyam et al. (2025)]\n• GAP-161 Bug-type transferability [Torun et al. (2026)]",
+      "color": "#E45756",
+      "shape": "triangle",
+      "value": 2
+    },
+    {
+      "id": "GG26",
+      "label": "Perceived, not measured",
+      "group": "Gap",
+      "title": "Gap group: Perceived, not measured\n3 gap(s) from 3 paper(s)\n\n• GAP-050 Hard-to-automate management tasks [Cabrero-Daniel et al.\n(2024)]\n• GAP-140 Early-phase absence unexplained [Li et al. (2026)]\n• GAP-054 Perceived, not measured [Liang et al. (2024)]",
+      "color": "#E45756",
+      "shape": "triangle",
+      "value": 3
+    },
+    {
+      "id": "GG27",
+      "label": "Interface design, steering, stability",
+      "group": "Gap",
+      "title": "Gap group: Interface design, steering, stability\n5 gap(s) from 5 paper(s)\n\n• GAP-030 Steering interfaces needed [Huang et al. (2026)]\n• GAP-003 Why perceptions differ [Becker et al. (2025)]\n• GAP-095 Agents, regulation gap [Fetzer et al. (2026)]\n• GAP-024 Explainable agent design [Chen et al. (2026)]\n• GAP-102 Broader sample, stability [Sergeyuk et al. (2026)]",
+      "color": "#E45756",
+      "shape": "triangle",
+      "value": 5
+    },
+    {
+      "id": "GG28",
+      "label": "Oversight and role displacement",
+      "group": "Gap",
+      "title": "Gap group: Oversight and role displacement\n2 gap(s) from 1 paper(s)\n\n• GAP-159 Oversight placement, order [Torun et al. (2026)]\n• GAP-160 Role displacement conjecture [Torun et al. (2026)]",
+      "color": "#E45756",
+      "shape": "triangle",
+      "value": 2
+    },
+    {
+      "id": "GG29",
+      "label": "Ecosystem-level impact",
+      "group": "Gap",
+      "title": "Gap group: Ecosystem-level impact\n1 gap(s) from 1 paper(s)\n\n• GAP-023 Fast-moving snapshot [Chen et al. (2026)]",
+      "color": "#E45756",
+      "shape": "triangle",
+      "value": 1
+    },
+    {
+      "id": "GG30",
+      "label": "Junior and mentor views",
+      "group": "Gap",
+      "title": "Gap group: Junior and mentor views\n3 gap(s) from 3 paper(s)\n\n• GAP-119 Junior roles open [Tabarsi et al. (2026)]\n• GAP-100 Senior-skewed sample [Sergeyuk et al. (2026)]\n• GAP-110 Junior, mentor views [Kam et al. (2025)]",
+      "color": "#E45756",
+      "shape": "triangle",
+      "value": 3
+    },
+    {
+      "id": "GG32",
+      "label": "Self-selection, non-randomised groups",
+      "group": "Gap",
+      "title": "Gap group: Self-selection, non-randomised groups\n3 gap(s) from 2 paper(s)\n\n• GAP-090 Satisfaction self-selection [Stray et al. (2025)]\n• GAP-092 Adoption framework refinement [Stray et al. (2025)]\n• GAP-105 Non-coding task delegation [Nguyen-Duc & Khanna (2024)]",
+      "color": "#E45756",
+      "shape": "triangle",
+      "value": 3
+    },
+    {
+      "id": "GG33",
+      "label": "Conceptual, no practitioner data",
+      "group": "Gap",
+      "title": "Gap group: Conceptual, no practitioner data\n2 gap(s) from 2 paper(s)\n\n• GAP-114 Chatbot-era data [Zacharias et al. (2026)]\n• GAP-152 No practitioner input [Migliarini et al. (2026)]",
+      "color": "#E45756",
+      "shape": "triangle",
+      "value": 2
+    },
+    {
+      "id": "GG34",
+      "label": "Governance, silent use",
+      "group": "Gap",
+      "title": "Gap group: Governance, silent use\n4 gap(s) from 4 paper(s)\n\n• GAP-096 Developer-use governance [Fetzer et al. (2026)]\n• GAP-156 Teammate ownership, equity [Hassan et al. (2026)]\n• GAP-036 Silent workarounds invisible [Tang et al. (2026)]\n• GAP-044 Self-admitted use only [Tufano et al. (2026)]",
+      "color": "#E45756",
+      "shape": "triangle",
+      "value": 4
+    },
+    {
+      "id": "GG35",
+      "label": "Single-company limits",
+      "group": "Gap",
+      "title": "Gap group: Single-company limits\n1 gap(s) from 1 paper(s)\n\n• GAP-078 Rule-setters not interviewed [Klemmer et al. (2024)]",
+      "color": "#E45756",
+      "shape": "triangle",
+      "value": 1
+    },
+    {
+      "id": "GG36",
+      "label": "Method scope, metrics",
+      "group": "Gap",
+      "title": "Gap group: Method scope, metrics\n3 gap(s) from 3 paper(s)\n\n• GAP-136 Quiet reviewer scepticism [Watanabe et al. (2026)]\n• GAP-043 Helpfulness judged externally [Ehsani et al. (2026)]\n• GAP-027 Iteration and skill [Otten et al. (2026)]",
+      "color": "#E45756",
+      "shape": "triangle",
+      "value": 3
+    },
+    {
+      "id": "GG37",
+      "label": "Taxonomy, guidelines untested",
+      "group": "Gap",
+      "title": "Gap group: Taxonomy, guidelines untested\n2 gap(s) from 2 paper(s)\n\n• GAP-026 Incomplete prompting taxonomy [Otten et al. (2026)]\n• GAP-121 Multi-site surveys, probes [O'Brien (2025)]",
+      "color": "#E45756",
+      "shape": "triangle",
+      "value": 2
+    },
+    {
+      "id": "GG38",
+      "label": "Cost, trust, practice coverage",
+      "group": "Gap",
+      "title": "Gap group: Cost, trust, practice coverage\n4 gap(s) from 3 paper(s)\n\n• GAP-125 Cost, trust, interpretability [Hou et al. (2024)]\n• GAP-128 Per-form challenges [Amalfitano et al. (2026)]\n• GAP-083 Three organisations [Yu et al. (2026)]\n• GAP-126 Practice coverage thin [Hou et al. (2024)]",
+      "color": "#E45756",
+      "shape": "triangle",
+      "value": 4
+    },
+    {
+      "id": "GG39",
+      "label": "Open agenda, rapid change",
+      "group": "Gap",
+      "title": "Gap group: Open agenda, rapid change\n4 gap(s) from 4 paper(s)\n\n• GAP-151 Four research questions [Migliarini et al. (2026)]\n• GAP-155 People questions undeveloped [Hassan et al. (2026)]\n• GAP-046 Unexplained use shift [Tufano et al. (2026)]\n• GAP-101 Rapid-change period [Sergeyuk et al. (2026)]",
+      "color": "#E45756",
+      "shape": "triangle",
+      "value": 4
+    },
+    {
+      "id": "GG40",
+      "label": "Vision without evaluation",
+      "group": "Gap",
+      "title": "Gap group: Vision without evaluation\n2 gap(s) from 2 paper(s)\n\n• GAP-067 Wider use cases [Subramonyam et al. (2025)]\n• GAP-093 Single car maker [Fetzer et al. (2026)]",
+      "color": "#E45756",
+      "shape": "triangle",
+      "value": 2
+    },
+    {
+      "id": "P1",
+      "label": "Becker et al. (2025)",
+      "group": "Paper",
+      "title": "Measuring the Impact of Early-2025 AI on Experienced Open-Source\nDeveloper Productivity\n\nBecker et al. (2025) — Early-2025 AI and experienced open-source\ndevelopers\nExperiment / RCT · Speed and productivity",
+      "color": "#4C78A8",
+      "shape": "dot",
+      "value": 3
+    },
+    {
+      "id": "P2",
+      "label": "Paradis et al. (2025)",
+      "group": "Paper",
+      "title": "How much does AI impact development speed? An enterprise-based\nrandomized controlled trial\n\nParadis et al. (2025) — Google enterprise RCT on development speed\nExperiment / RCT · Speed and productivity",
+      "color": "#4C78A8",
+      "shape": "dot",
+      "value": 3
+    },
+    {
+      "id": "P3",
+      "label": "Cui et al. (2026)",
+      "group": "Paper",
+      "title": "The Effects of Generative AI on High-Skilled Work: Evidence from Three\nField Experiments with Software Developers\n\nCui et al. (2026) — Three field experiments with software developers\nExperiment / RCT · Speed and productivity",
+      "color": "#4C78A8",
+      "shape": "dot",
+      "value": 3
+    },
+    {
+      "id": "P4",
+      "label": "Heilman et al. (2026)",
+      "group": "Paper",
+      "title": "GitHub Copilot and Developer Productivity: An Observational\nDose-Response Analysis\n\nHeilman et al. (2026) — Copilot dose-response at Microsoft\nTelemetry / repository mining · Speed and productivity",
+      "color": "#4C78A8",
+      "shape": "dot",
+      "value": 3
+    },
+    {
+      "id": "P5",
+      "label": "Murphy-Hill et al. (2026)",
+      "group": "Paper",
+      "title": "Adoption and Impact of Command-Line AI Coding Agents: A Study of\nMicrosoft's Early 2026 Rollout of Claude Code and GitHub Copilot CLI\n\nMurphy-Hill et al. (2026) — Rollout of command-line AI agents at\nMicrosoft\nTelemetry / repository mining · Speed and productivity",
+      "color": "#4C78A8",
+      "shape": "dot",
+      "value": 3
+    },
+    {
+      "id": "P6",
+      "label": "Borg et al. (2026)",
+      "group": "Paper",
+      "title": "Echoes of AI: Investigating the downstream effects of AI assistants on\nsoftware maintainability\n\nBorg et al. (2026) — Echoes of AI: effects on maintainability\nExperiment / RCT · Speed and productivity",
+      "color": "#4C78A8",
+      "shape": "dot",
+      "value": 3
+    },
+    {
+      "id": "P7",
+      "label": "Chen et al. (2026)",
+      "group": "Paper",
+      "title": "Code with Me or for Me? How Increasing AI Automation Transforms\nDeveloper Workflows\n\nChen et al. (2026) — Code with me or for me? Copilots vs agents\nUser study (lab or field) · Speed and productivity",
+      "color": "#4C78A8",
+      "shape": "dot",
+      "value": 3
+    },
+    {
+      "id": "P8",
+      "label": "Otten et al. (2026)",
+      "group": "Paper",
+      "title": "Prompting in Practice: Investigating Software Practitioners' Use of\nGenerative AI Tools\n\nOtten et al. (2026) — Prompting in practice\nSurvey · How practitioners use GenAI",
+      "color": "#4C78A8",
+      "shape": "dot",
+      "value": 3
+    },
+    {
+      "id": "P9",
+      "label": "Huang et al. (2026)",
+      "group": "Paper",
+      "title": "Professional Software Developers Don't Vibe, They Control: AI Agent\nUse for Coding in 2025\n\nHuang et al. (2026) — Professional developers don't vibe, they control\nSurvey + observation · How practitioners use GenAI",
+      "color": "#4C78A8",
+      "shape": "dot",
+      "value": 3
+    },
+    {
+      "id": "P10",
+      "label": "Baumann et al. (2026)",
+      "group": "Paper",
+      "title": "SWE-chat: Coding Agent Interactions From Real Users in the Wild\n\nBaumann et al. (2026) — SWE-chat: coding-agent sessions in the wild\nTelemetry / repository mining · How practitioners use GenAI",
+      "color": "#4C78A8",
+      "shape": "dot",
+      "value": 3
+    },
+    {
+      "id": "P11",
+      "label": "Tang et al. (2026)",
+      "group": "Paper",
+      "title": "How Coding Agents Fail Their Users: A Large-Scale Analysis of\nDeveloper-Agent Misalignment in 20,574 Real-World Sessions\n\nTang et al. (2026) — How coding agents fail their users\nTelemetry / repository mining · How practitioners use GenAI",
+      "color": "#4C78A8",
+      "shape": "dot",
+      "value": 3
+    },
+    {
+      "id": "P12",
+      "label": "Hao et al. (2024)",
+      "group": "Paper",
+      "title": "An empirical study on developers' shared conversations with ChatGPT in\nGitHub pull requests and issues\n\nHao et al. (2024) — Shared ChatGPT conversations in pull requests and\nissues\nTelemetry / repository mining · How practitioners use GenAI",
+      "color": "#4C78A8",
+      "shape": "dot",
+      "value": 3
+    },
+    {
+      "id": "P13",
+      "label": "Ehsani et al. (2026)",
+      "group": "Paper",
+      "title": "What characteristics make ChatGPT effective for software issue\nresolution? An empirical study of task, project, and conversational\nsignals in GitHub issues\n\nEhsani et al. (2026) — What makes ChatGPT effective for issue\nresolution?\nTelemetry / repository mining · How practitioners use GenAI",
+      "color": "#4C78A8",
+      "shape": "dot",
+      "value": 3
+    },
+    {
+      "id": "P14",
+      "label": "Tufano et al. (2026)",
+      "group": "Paper",
+      "title": "Developers and generative AI: A study of self-admitted usage in open\nsource projects\n\nTufano et al. (2026) — Self-admitted use of ChatGPT and Copilot in\nopen source\nTelemetry / repository mining · How practitioners use GenAI",
+      "color": "#4C78A8",
+      "shape": "dot",
+      "value": 3
+    },
+    {
+      "id": "P15",
+      "label": "Liukko et al. (2024)",
+      "group": "Paper",
+      "title": "ChatGPT as a Full-Stack Web Developer\n\nLiukko et al. (2024) — ChatGPT as a full-stack web developer (book ch.\n9)\nCase study / action research · How practitioners use GenAI",
+      "color": "#4C78A8",
+      "shape": "dot",
+      "value": 3
+    },
+    {
+      "id": "P16",
+      "label": "Ulfsnes et al. (2024)",
+      "group": "Paper",
+      "title": "Transforming Software Development with Generative AI: Empirical\nInsights on Collaboration and Workflow\n\nUlfsnes et al. (2024) — Collaboration and workflow with GenAI (book\nch. 10)\nInterviews · How practitioners use GenAI",
+      "color": "#4C78A8",
+      "shape": "dot",
+      "value": 3
+    },
+    {
+      "id": "P17",
+      "label": "Cabrero-Daniel et al. (2024)",
+      "group": "Paper",
+      "title": "How Can Generative AI Enhance Software Management? Is It Better Done\nthan Perfect?\n\nCabrero-Daniel et al. (2024) — GenAI for software management (book ch.\n11)\nExperiment / RCT · How practitioners use GenAI",
+      "color": "#4C78A8",
+      "shape": "dot",
+      "value": 3
+    },
+    {
+      "id": "P18",
+      "label": "Barke et al. (2023)",
+      "group": "Paper",
+      "title": "Grounded Copilot: How Programmers Interact with Code-Generating Models\n\nBarke et al. (2023) — Grounded Copilot\nUser study (lab or field) · Human–AI interaction and tool design",
+      "color": "#4C78A8",
+      "shape": "dot",
+      "value": 3
+    },
+    {
+      "id": "P19",
+      "label": "Liang et al. (2024)",
+      "group": "Paper",
+      "title": "A Large-Scale Survey on the Usability of AI Programming Assistants:\nSuccesses and Challenges\n\nLiang et al. (2024) — Usability of AI programming assistants\nSurvey · Human–AI interaction and tool design",
+      "color": "#4C78A8",
+      "shape": "dot",
+      "value": 3
+    },
+    {
+      "id": "P20",
+      "label": "Mozannar et al. (2024)",
+      "group": "Paper",
+      "title": "Reading Between the Lines: Modeling User Behavior and Costs in\nAI-Assisted Programming\n\nMozannar et al. (2024) — Reading between the lines: user behaviour and\ncosts\nUser study (lab or field) · Human–AI interaction and tool design",
+      "color": "#4C78A8",
+      "shape": "dot",
+      "value": 3
+    },
+    {
+      "id": "P21",
+      "label": "Wu et al. (2026)",
+      "group": "Paper",
+      "title": "How Do Developers Interact with AI? An Exploratory Study on Modeling\nDeveloper Programming Behavior\n\nWu et al. (2026) — How do developers interact with AI? (S-IASE model)\nUser study (lab or field) · Human–AI interaction and tool design",
+      "color": "#4C78A8",
+      "shape": "dot",
+      "value": 3
+    },
+    {
+      "id": "P22",
+      "label": "Chen et al. (2025)",
+      "group": "Paper",
+      "title": "Need Help? Designing Proactive AI Assistants for Programming\n\nChen et al. (2025) — Need help? Proactive AI assistants for\nprogramming\nExperiment / RCT · Human–AI interaction and tool design",
+      "color": "#4C78A8",
+      "shape": "dot",
+      "value": 3
+    },
+    {
+      "id": "P23",
+      "label": "Ziegler et al. (2026)",
+      "group": "Paper",
+      "title": "Direct Manipulation and Natural Language Programming, Together at\nLast?\n\nZiegler et al. (2026) — Direct manipulation and natural-language\nprogramming together\nUser study (lab or field) · Human–AI interaction and tool design",
+      "color": "#4C78A8",
+      "shape": "dot",
+      "value": 3
+    },
+    {
+      "id": "P24",
+      "label": "Subramonyam et al. (2025)",
+      "group": "Paper",
+      "title": "Prototyping with Prompts: Emerging Approaches and Challenges in\nGenerative AI Design for Collaborative Software Teams\n\nSubramonyam et al. (2025) — Prototyping with prompts\nWorkshop / design study · Human–AI interaction and tool design",
+      "color": "#4C78A8",
+      "shape": "dot",
+      "value": 3
+    },
+    {
+      "id": "P25",
+      "label": "Brandebusemeyer et al. (2026)",
+      "group": "Paper",
+      "title": "Developers' Experience with Generative AI Beyond Productivity\nAssessment – Insights from an Empirical Mixed-Methods Field Study\n\nBrandebusemeyer et al. (2026) — Developers' experience beyond\nproductivity\nUser study (lab or field) · Human–AI interaction and tool design",
+      "color": "#4C78A8",
+      "shape": "dot",
+      "value": 3
+    },
+    {
+      "id": "P26",
+      "label": "Zakharov et al. (2025)",
+      "group": "Paper",
+      "title": "AI in Software Engineering: Perceived Roles and Their Impact on\nAdoption\n\nZakharov et al. (2025) — Perceived roles of AI and adoption\nSurvey + interviews · Human–AI interaction and tool design",
+      "color": "#4C78A8",
+      "shape": "dot",
+      "value": 3
+    },
+    {
+      "id": "P27",
+      "label": "Perry et al. (2023)",
+      "group": "Paper",
+      "title": "Do Users Write More Insecure Code with AI Assistants?\n\nPerry et al. (2023) — Do users write more insecure code with AI\nassistants?\nExperiment / RCT · Trust, verification and security",
+      "color": "#4C78A8",
+      "shape": "dot",
+      "value": 3
+    },
+    {
+      "id": "P28",
+      "label": "Klemmer et al. (2024)",
+      "group": "Paper",
+      "title": "Using AI Assistants in Software Development: A Qualitative Study on\nSecurity Practices and Concerns\n\nKlemmer et al. (2024) — AI assistants and security: interviews and\nReddit\nInterviews · Trust, verification and security",
+      "color": "#4C78A8",
+      "shape": "dot",
+      "value": 3
+    },
+    {
+      "id": "P29",
+      "label": "Sabouri et al. (2025)",
+      "group": "Paper",
+      "title": "Trust Dynamics in AI-Assisted Development: Definitions, Factors, and\nImplications\n\nSabouri et al. (2025) — Trust dynamics in AI-assisted development\nSurvey + observation · Trust, verification and security",
+      "color": "#4C78A8",
+      "shape": "dot",
+      "value": 3
+    },
+    {
+      "id": "P30",
+      "label": "Choudhuri et al. (2025)",
+      "group": "Paper",
+      "title": "What Guides Our Choices? Modeling Developers' Trust and Behavioral\nIntentions Towards GenAI\n\nChoudhuri et al. (2025) — What guides our choices? Trust and\nbehavioural intentions\nSurvey · Trust, verification and security",
+      "color": "#4C78A8",
+      "shape": "dot",
+      "value": 3
+    },
+    {
+      "id": "P31",
+      "label": "Yu et al. (2026)",
+      "group": "Paper",
+      "title": "Evaluating the quality of GenAI applications in software engineering:\na multi-case study\n\nYu et al. (2026) — Evaluating the quality of GenAI applications\nCase study / action research · Trust, verification and security",
+      "color": "#4C78A8",
+      "shape": "dot",
+      "value": 3
+    },
+    {
+      "id": "P32",
+      "label": "Giray et al. (2026)",
+      "group": "Paper",
+      "title": "An Empirical Study of Generative AI Adoption in Software Engineering\n\nGiray et al. (2026) — An empirical study of GenAI adoption in software\nengineering\nSurvey · Adoption, organisations and governance",
+      "color": "#4C78A8",
+      "shape": "dot",
+      "value": 3
+    },
+    {
+      "id": "P33",
+      "label": "Stray et al. (2025)",
+      "group": "Paper",
+      "title": "Human-AI Collaboration in Software Development: A Mixed-Methods Study\nof Developers' Use of GitHub Copilot and ChatGPT\n\nStray et al. (2025) — Human–AI collaboration in a public-sector\norganisation\nSurvey + interviews · Adoption, organisations and governance",
+      "color": "#4C78A8",
+      "shape": "dot",
+      "value": 3
+    },
+    {
+      "id": "P34",
+      "label": "Fetzer et al. (2026)",
+      "group": "Paper",
+      "title": "Responsible Engineering of Information Systems Based on Generative\nArtificial Intelligence: An Action Design Research Study at a German\nPremium Car Manufacturer\n\nFetzer et al. (2026) — Responsible engineering of GenAI-based systems\nat a car manufacturer\nCase study / action research · Adoption, organisations and governance",
+      "color": "#4C78A8",
+      "shape": "dot",
+      "value": 3
+    },
+    {
+      "id": "P35",
+      "label": "Choudhuri et al. (2026)",
+      "group": "Paper",
+      "title": "AI Where It Matters: Where, Why, and How Developers Want AI Support in\nDaily Work\n\nChoudhuri et al. (2026) — AI where it matters\nSurvey · Adoption, organisations and governance",
+      "color": "#4C78A8",
+      "shape": "dot",
+      "value": 3
+    },
+    {
+      "id": "P36",
+      "label": "Sergeyuk et al. (2026)",
+      "group": "Paper",
+      "title": "Developer Needs and Feasible Features for AI Assistants in IDEs\n\nSergeyuk et al. (2026) — Developer needs and feasible features for AI\nin IDEs\nInterviews · Adoption, organisations and governance",
+      "color": "#4C78A8",
+      "shape": "dot",
+      "value": 3
+    },
+    {
+      "id": "P37",
+      "label": "Nguyen-Duc & Khanna (2024)",
+      "group": "Paper",
+      "title": "Value-Based Adoption of ChatGPT in Agile Software Development: A\nSurvey Study of Nordic Software Experts\n\nNguyen-Duc & Khanna (2024) — Value-based adoption of ChatGPT in Agile\ndevelopment (book ch. 12)\nSurvey · Adoption, organisations and governance",
+      "color": "#4C78A8",
+      "shape": "dot",
+      "value": 3
+    },
+    {
+      "id": "P38",
+      "label": "Pereira et al. (2024)",
+      "group": "Paper",
+      "title": "Early Results from a Study of GenAI Adoption in a Large Brazilian\nCompany: The Case of Globo\n\nPereira et al. (2024) — GenAI adoption at Globo (book ch. 13)\nCase study / action research · Adoption, organisations and governance",
+      "color": "#4C78A8",
+      "shape": "dot",
+      "value": 3
+    },
+    {
+      "id": "P39",
+      "label": "Kam et al. (2025)",
+      "group": "Paper",
+      "title": "What do professional software developers need to know to succeed in an\nage of Artificial Intelligence?\n\nKam et al. (2025) — What do professional developers need to know in\nthe age of AI?\nWorkshop / design study · Skills, juniors, education and identity",
+      "color": "#4C78A8",
+      "shape": "dot",
+      "value": 3
+    },
+    {
+      "id": "P40",
+      "label": "Nguyen et al. (2024)",
+      "group": "Paper",
+      "title": "How Beginning Programmers and Code LLMs (Mis)read Each Other\n\nNguyen et al. (2024) — How beginning programmers and Code LLMs\n(mis)read each other\nUser study (lab or field) · Skills, juniors, education and identity",
+      "color": "#4C78A8",
+      "shape": "dot",
+      "value": 3
+    },
+    {
+      "id": "P41",
+      "label": "Zacharias et al. (2026)",
+      "group": "Paper",
+      "title": "Developers' Dilemma: Opportunities and Pitfalls of Generative AI for\nSoftware Development\n\nZacharias et al. (2026) — Developers' dilemma\nInterviews · Skills, juniors, education and identity",
+      "color": "#4C78A8",
+      "shape": "dot",
+      "value": 3
+    },
+    {
+      "id": "P42",
+      "label": "Tabarsi et al. (2026)",
+      "group": "Paper",
+      "title": "LLMs' reshaping of people, processes, products, and society in\nsoftware development: a qualitative exploration with early adopters\n\nTabarsi et al. (2026) — LLMs reshaping people, processes, products and\nsociety\nInterviews · Skills, juniors, education and identity",
+      "color": "#4C78A8",
+      "shape": "dot",
+      "value": 3
+    },
+    {
+      "id": "P43",
+      "label": "O'Brien (2025)",
+      "group": "Paper",
+      "title": "How Scientists Use Large Language Models to Program\n\nO'Brien (2025) — How scientists use large language models to program\nSurvey + interviews · Skills, juniors, education and identity",
+      "color": "#4C78A8",
+      "shape": "dot",
+      "value": 3
+    },
+    {
+      "id": "P44",
+      "label": "Saari et al. (2024)",
+      "group": "Paper",
+      "title": "Toward Guiding Students: Exploring Effective Approaches for Utilizing\nAI Tools in Programming Courses\n\nSaari et al. (2024) — Guiding students in using AI tools (book ch. 16)\nSurvey · Skills, juniors, education and identity",
+      "color": "#4C78A8",
+      "shape": "dot",
+      "value": 3
+    },
+    {
+      "id": "P45",
+      "label": "Hou et al. (2024)",
+      "group": "Paper",
+      "title": "Large Language Models for Software Engineering: A Systematic\nLiterature Review\n\nHou et al. (2024) — LLMs for software engineering: a systematic review\nLiterature review / roadmap · Overviews, roadmaps and books",
+      "color": "#4C78A8",
+      "shape": "dot",
+      "value": 3
+    },
+    {
+      "id": "P46",
+      "label": "Amalfitano et al. (2026)",
+      "group": "Paper",
+      "title": "A Research Roadmap for Augmenting Software Engineering Processes and\nSoftware Products with Generative AI\n\nAmalfitano et al. (2026) — Research roadmap for GenAI-augmented\nsoftware engineering\nLiterature review / roadmap · Overviews, roadmaps and books",
+      "color": "#4C78A8",
+      "shape": "dot",
+      "value": 3
+    },
+    {
+      "id": "P47",
+      "label": "Brun et al. (2026)",
+      "group": "Paper",
+      "title": "Automatically Engineering Trusted Software: A Research Roadmap\n\nBrun et al. (2026) — Automatically engineering trusted software: a\nresearch roadmap\nLiterature review / roadmap · Overviews, roadmaps and books",
+      "color": "#4C78A8",
+      "shape": "dot",
+      "value": 3
+    },
+    {
+      "id": "P48",
+      "label": "Gioia, Corley & Hamilton (2013)",
+      "group": "Paper",
+      "title": "Seeking Qualitative Rigor in Inductive Research: Notes on the Gioia\nMethodology\n\nGioia, Corley & Hamilton (2013) — Seeking qualitative rigor in\ninductive research\nMethod reference · Method reference",
+      "color": "#4C78A8",
+      "shape": "dot",
+      "value": 3
+    },
+    {
+      "id": "P49",
+      "label": "Watanabe et al. (2026)",
+      "group": "Paper",
+      "title": "On the Use of Agentic Coding: An Empirical Study of Pull Requests on\nGitHub\n\nWatanabe et al. (2026) — On the use of agentic coding: pull requests\non GitHub\nTelemetry / repository mining · How practitioners use GenAI",
+      "color": "#4C78A8",
+      "shape": "dot",
+      "value": 3
+    },
+    {
+      "id": "P50",
+      "label": "Li et al. (2026)",
+      "group": "Paper",
+      "title": "Unveiling the Role of ChatGPT in Software Development: Insights from\nDeveloper–ChatGPT Interactions on GitHub\n\nLi et al. (2026) — The role of ChatGPT in software development: shared\nconversations on GitHub (DevChat)\nTelemetry / repository mining · How practitioners use GenAI",
+      "color": "#4C78A8",
+      "shape": "dot",
+      "value": 3
+    },
+    {
+      "id": "P51",
+      "label": "Moreno-Lumbreras et al. (2026)",
+      "group": "Paper",
+      "title": "BonsAIDE: An Extended Vision for Human–AI Interaction in IDEs\n\nMoreno-Lumbreras et al. (2026) — BonsAIDE: a vision for human–AI\ninteraction in IDEs\nUser study (lab or field) · Human–AI interaction and tool design",
+      "color": "#4C78A8",
+      "shape": "dot",
+      "value": 3
+    },
+    {
+      "id": "P52",
+      "label": "Long et al. (2026)",
+      "group": "Paper",
+      "title": "Understanding and Enhancing CS Students' Interaction Experience with\nAI Coding Assistant Tools\n\nLong et al. (2026) — CS students' interaction with AI coding\nassistants: acceptance, behaviour and expectations\nUser study (lab or field) · Skills, juniors, education and identity",
+      "color": "#4C78A8",
+      "shape": "dot",
+      "value": 3
+    },
+    {
+      "id": "P53",
+      "label": "Migliarini et al. (2026)",
+      "group": "Paper",
+      "title": "Ethical Prompt Engineering for AI-driven SE: Evidence-informed\nInteraction-time Governance Roadmap to 2030\n\nMigliarini et al. (2026) — Ethical prompt engineering for AI-driven\nSE: an interaction-time governance roadmap to 2030\nLiterature review / roadmap · Overviews, roadmaps and books",
+      "color": "#4C78A8",
+      "shape": "dot",
+      "value": 3
+    },
+    {
+      "id": "P54",
+      "label": "Hassan et al. (2026)",
+      "group": "Paper",
+      "title": "Towards AI-Native Software Engineering (SE 3.0): A Vision and a\nChallenge Roadmap\n\nHassan et al. (2026) — Towards AI-native software engineering (SE\n3.0): a vision and challenge roadmap\nLiterature review / roadmap · Overviews, roadmaps and books",
+      "color": "#4C78A8",
+      "shape": "dot",
+      "value": 3
+    },
+    {
+      "id": "P55",
+      "label": "Torun et al. (2026)",
+      "group": "Paper",
+      "title": "Past, Present, and Future of Bug Tracking in the Generative AI Era\n\nTorun et al. (2026) — Past, present and future of bug tracking in the\ngenerative AI era\nLiterature review / roadmap · Overviews, roadmaps and books",
+      "color": "#4C78A8",
+      "shape": "dot",
+      "value": 3
+    }
+  ],
+  "edges": [
+    {
+      "from": "P53",
+      "to": "FG2",
+      "kind": "Finding",
+      "title": "Migliarini et al. (2026) → Trust formation and revision\n\nFND-155 Safeguard cost trade-offs: Reasoning steps, ensembles,\nretrieval grounding and verification improve structure and stability\nbut cost latency, tokens and energy: budget them, switch them on by\nrisk, and keep human oversight, especially in agentic use\n  Interview question: Q#2.2, Q#9, Q#13",
+      "value": 1,
+      "color": {
+        "color": "#54A24B",
+        "opacity": 0.45
+      },
+      "id": 1
+    },
+    {
+      "from": "P52",
+      "to": "FG3",
+      "kind": "Finding",
+      "title": "Long et al. (2026) → Verification effort and limits\n\nFND-151 Run-based verification: Verification mostly runs the code: of\n166 verification actions 87% checked output and 13% inspected internal\nlogic; students named 22 decision factors, 11 challenges (the most\ncommon, from 19 of 27, is how candidates are displayed and switched;\n14 had not noticed that other candidates exist) and 23 expectations\n(15 of 27 want better natural-language interaction)\n  Interview question: Q#2.2, Q#10, Q#14",
+      "value": 1,
+      "color": {
+        "color": "#54A24B",
+        "opacity": 0.45
+      },
+      "id": 2
+    },
+    {
+      "from": "P55",
+      "to": "FG4",
+      "kind": "Finding",
+      "title": "Torun et al. (2026) → Gains and named risks\n\nFND-163 Named risks: Named risks: accountability gap from opaque LLM\ndecisions (answer: named human reviewers), hallucination, errors\ncascading across steps, privacy, hidden API and integration costs, and\nresistance, role displacement and deskilling, including shadow\nprocesses outside the tracker\n  Interview question: Q#4, Q#10, Q#13, Q#14",
+      "value": 1,
+      "color": {
+        "color": "#54A24B",
+        "opacity": 0.45
+      },
+      "id": 3
+    },
+    {
+      "from": "P52",
+      "to": "FG10",
+      "kind": "Finding",
+      "title": "Long et al. (2026) → Output problems, felt productivity\n\nFND-149 Felt more productive: Students felt more productive with the\ntool: about 30% found the task easy with it, while over 50% found it\ndifficult without; about 55% rated their own performance bad without\nit, and over 55% agree that programming without an assistant is\nstrenuous\n  Interview question: Q#2.3, Q#9",
+      "value": 1,
+      "color": {
+        "color": "#54A24B",
+        "opacity": 0.45
+      },
+      "id": 4
+    },
+    {
+      "from": "P54",
+      "to": "FG11",
+      "kind": "Finding",
+      "title": "Hassan et al. (2026) → Subgroup effects, seniority\n\nFND-157 Bloat, selective acceptance: Assistants lean towards additive\nchanges and bloat; the authors cite a Cursor study (more speed at\nfirst, then higher complexity and warnings), seniors accepting fewer\nsuggestions than juniors, and a survey of about 500 developers who\nskip AI for lack of need, inaccuracy, low trust, a wish for control or\nmissing context\n  Interview question: Q#8, Q#9, Q#10, Q#12",
+      "value": 1,
+      "color": {
+        "color": "#54A24B",
+        "opacity": 0.45
+      },
+      "id": 5
+    },
+    {
+      "from": "P54",
+      "to": "FG17",
+      "kind": "Finding",
+      "title": "Hassan et al. (2026) → Augmentation forms, joint tools\n\nFND-158 Intent-centric SE 3.0: Vision: intent-centric,\nconversation-oriented development in which an AI teammate clarifies\nintent and drives code creation; code is secondary and hidden by\ndefault, conversations are archived and versioned; stack of\nTeammate.next, IDE.next, Compiler.next, Runtime.next and FM.next\n  Interview question: Q#2, Q#6",
+      "value": 1,
+      "color": {
+        "color": "#54A24B",
+        "opacity": 0.45
+      },
+      "id": 6
+    },
+    {
+      "from": "P53",
+      "to": "FG20",
+      "kind": "Finding",
+      "title": "Migliarini et al. (2026) → Prompt-layer engineering\n\nFND-154 Versioned, auditable prompts: Prompts, context bindings,\nretrieval scope and checks should be versioned, auditable artefacts,\ndescribed by four capability groups (policy and context, prompt\nplanning, provenance and audit, evaluation and reporting) and a\nminimum reporting kit (model and version, decoding, retrieval scope,\ncache and access policies)\n  Interview question: Q#3, Q#4, Q#7\nFND-152 Four recurring problems: Four recurring problems: policy and\nproject context are not bound at invocation and provenance is too thin\nfor review; prompt patterns do not transfer across models, versions or\nrepositories; safeguards add latency, tokens and energy; some risks\nneed escalation beyond the prompt layer, with no standard thresholds\n  Interview question: Q#3, Q#4, Q#13\nFND-153 Prompt-layer limits: Prompt-layer controls can constrain\noutput, scope retrieval, require citations and record provenance, but\ncannot remove entrenched representational harms or unintended\nmemorisation: those need model, data or organisational governance\n  Interview question: Q#4, Q#11",
+      "value": 3,
+      "color": {
+        "color": "#54A24B",
+        "opacity": 0.45
+      },
+      "id": 7
+    },
+    {
+      "from": "P52",
+      "to": "FG22",
+      "kind": "Finding",
+      "title": "Long et al. (2026) → Tool limits, steerability\n\nFND-150 Backtracking patterns: Most interaction paths end at accept or\nreject; comment-style prompts were accepted less (43.2%) than code\n(48.2%) or context (50.1%) prompts; 'slowly accepted' (retyped)\nsuggestions were never backtracked, whereas changing earlier code to\nfit a suggestion ended in backtracking in 7 of 7 cases\n  Interview question: Q#2.1, Q#2.2, Q#7",
+      "value": 1,
+      "color": {
+        "color": "#54A24B",
+        "opacity": 0.45
+      },
+      "id": 8
+    },
+    {
+      "from": "P54",
+      "to": "FG22",
+      "kind": "Finding",
+      "title": "Hassan et al. (2026) → Tool limits, steerability\n\nFND-156 SE 2.0 limits: Limits of today's AI-assisted SE ('SE 2.0'):\nthe developer still drives the loop and carries the load of\ndecomposing, prompting, judging suggestions and debugging; wrong\nsuggestions can lead into debugging 'rabbit holes'\n  Interview question: Q#2.1, Q#2.2, Q#7, Q#10",
+      "value": 1,
+      "color": {
+        "color": "#54A24B",
+        "opacity": 0.45
+      },
+      "id": 9
+    },
+    {
+      "from": "P54",
+      "to": "FG25",
+      "kind": "Finding",
+      "title": "Hassan et al. (2026) → Needs, taxonomies, teaching prompting\n\nFND-159 Challenges, open questions: Five challenges and 14 open\nquestions, e.g. speeding human–AI intent alignment ('humans are the\nbottleneck, not the AI'), efficient synthesis, edge routing, better SE\nknowledge in models and removing the need for prompt engineering\n  Interview question: Q#3, Q#7, Q#10, Q#14",
+      "value": 1,
+      "color": {
+        "color": "#54A24B",
+        "opacity": 0.45
+      },
+      "id": 10
+    },
+    {
+      "from": "P55",
+      "to": "FG37",
+      "kind": "Finding",
+      "title": "Torun et al. (2026) → Agent workflow, evaluation challenges\n\nFND-161 Proposed agent workflow: Proposed flow: end users report in\nnatural language; agents enhance reports, try to reproduce them,\nclassify and validate them, and resolve invalid ones without code;\nvalid bugs go to assigned developers who review LLM patches before\nCI/CD deploys\n  Interview question: Q#2.1, Q#2.2, Q#6\nFND-160 Nine bug-tracking challenges: Manual bug tracking depends on\npeople reporting, reproducing, triaging and fixing; the paper lists\nnine challenges across the workflow, from incomplete reports and hard\nreproduction to labour-intensive triage and slow asynchronous\nexchanges between end users and developers\n  Interview question: Q#6, Q#10",
+      "value": 2,
+      "color": {
+        "color": "#54A24B",
+        "opacity": 0.45
+      },
+      "id": 11
+    },
+    {
+      "from": "P52",
+      "to": "FG38",
+      "kind": "Finding",
+      "title": "Long et al. (2026) → Tool-dependent edit modes\n\nFND-148 Tool-dependent acceptance: Completion acceptance averaged 49%\nfor CodeGeeX, 39% for Copilot and 24% for Tabnine; comment and string\ncompletions were accepted least; 12 of 27 used any other feature (9\nnatural-language-to-code) and 7 of the 15 non-users did not know such\nfeatures existed\n  Interview question: Q#3, Q#6, Q#9",
+      "value": 1,
+      "color": {
+        "color": "#54A24B",
+        "opacity": 0.45
+      },
+      "id": 12
+    },
+    {
+      "from": "P39",
+      "to": "GG1",
+      "kind": "Gap",
+      "title": "Kam et al. (2025) → Early-adopter samples\n\nGAP-108 Small early-adopter sample: Small sample of 21 early adopters\nwith limited diversity (experts with deep AI use were hard to find in\n2023); findings may not generalise as adoption spreads and the field\nevolves.\n  Interview question: Q#1, Q#8, Q#14",
+      "value": 1,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 13
+    },
+    {
+      "from": "P42",
+      "to": "GG1",
+      "kind": "Gap",
+      "title": "Tabarsi et al. (2026) → Early-adopter samples\n\nGAP-117 Homogeneous early adopters: Participants were mostly US-based\nWhite or Asian men with 3+ years of experience; purposive,\nself-selected early adopters, so results may skew to more engaged or\nexperienced users; other groups' experiences may differ.\n  Interview question: Q#1",
+      "value": 1,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 14
+    },
+    {
+      "from": "P10",
+      "to": "GG1",
+      "kind": "Gap",
+      "title": "Baumann et al. (2026) → Early-adopter samples\n\nGAP-031 Public early adopters: Early adopters on public repos who opt\nin to logging; no proprietary enterprise code, so patterns may differ\n(e.g. legacy code); about 16% of sessions come from the tool maker's\nown repo.\n  Interview question: Q#1, Q#2, Q#5",
+      "value": 1,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 15
+    },
+    {
+      "from": "P11",
+      "to": "GG1",
+      "kind": "Gap",
+      "title": "Tang et al. (2026) → Early-adopter samples\n\nGAP-035 Opt-in early adopters: Developers who use SpecStory or\nEntire.io and opt in to public logging: early adopters; weaker agents,\nprivate projects and internal organisational use are\nunder-represented; a snapshot of a fast-changing practice.\n  Interview question: Q#1, Q#2, Q#8",
+      "value": 1,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 16
+    },
+    {
+      "from": "P5",
+      "to": "GG2",
+      "kind": "Gap",
+      "title": "Murphy-Hill et al. (2026) → Cross-sectional single-firm data\n\nGAP-015 Association, not cause: Cross-sectional adoption data cannot\nseparate peer influence from homophily; heavier-use weeks read as\nassociation, not cause; merged PRs are an imperfect proxy and may miss\nquality costs.\n  Interview question: Q#5, Q#9, Q#12",
+      "value": 1,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 17
+    },
+    {
+      "from": "P30",
+      "to": "GG2",
+      "kind": "Gap",
+      "title": "Choudhuri et al. (2025) → Cross-sectional single-firm data\n\nGAP-081 Cross-sectional, two firms: Cross-sectional, self-reported\nsurvey (associations, not causes) of self-selected respondents at\nGitHub and Microsoft only; the model cannot capture every factor.\n  Interview question: Q#1, Q#12",
+      "value": 1,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 18
+    },
+    {
+      "from": "P35",
+      "to": "GG2",
+      "kind": "Gap",
+      "title": "Choudhuri et al. (2026) → Cross-sectional single-firm data\n\nGAP-097 Single-company, self-reported: Cross-sectional and\nself-reported (associations, not causation; self-selection); one\ncompany (Microsoft), so results may not transfer to smaller\norganisations or open source; frequencies for qualitative themes\ndeliberately not reported.\n  Interview question: Q#1, Q#12",
+      "value": 1,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 19
+    },
+    {
+      "from": "P32",
+      "to": "GG3",
+      "kind": "Gap",
+      "title": "Giray et al. (2026) → Self-selected, self-reported samples\n\nGAP-085 Self-reported global sample: Self-reported, non-probability\nsample (204 respondents from 38 countries, not regionally balanced);\nrecall, social-desirability and self-assessment bias; findings may not\ngeneralise.\n  Interview question: Q#1",
+      "value": 1,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 20
+    },
+    {
+      "from": "P28",
+      "to": "GG3",
+      "kind": "Gap",
+      "title": "Klemmer et al. (2024) → Self-selected, self-reported samples\n\nGAP-075 Self-reported, English, corporate: Self-reported use and\nchecking (social desirability, participation bias; participants may\nnot mention forbidden AI use or may over-report validation); English\nonly; professional company settings only; few non-users.\n  Interview question: Q#1, Q#2, Q#2.2",
+      "value": 1,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 21
+    },
+    {
+      "from": "P33",
+      "to": "GG4",
+      "kind": "Gap",
+      "title": "Stray et al. (2025) → Narrow organisation or enthusiast samples\n\nGAP-089 One public organisation: One public-sector organisation,\nstudied by survey and interviews (self-reported); transfer to private\nfirms or other cultures is untested.\n  Interview question: Q#1, Q#12",
+      "value": 1,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 22
+    },
+    {
+      "from": "P43",
+      "to": "GG4",
+      "kind": "Gap",
+      "title": "O'Brien (2025) → Narrow organisation or enthusiast samples\n\nGAP-120 Self-reported convenience sample: Self-reports (survey and\ninterviews) rather than observation, apart from a sample of user logs;\nconvenience sample at one well-resourced US university, skewed to\nscientists with flexible schedules or an interest in programming;\nsurvey findings are exploratory.\n  Interview question: Q#1",
+      "value": 1,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 23
+    },
+    {
+      "from": "P9",
+      "to": "GG4",
+      "kind": "Gap",
+      "title": "Huang et al. (2026) → Narrow organisation or enthusiast samples\n\nGAP-028 AI-positive narrow sample: AI-positive survey sample (99, 98%\nmale, recruited from public GitHub emails, skewed to AI/ML repos) and\nonly 13 observations.\n  Interview question: Q#1, Q#14",
+      "value": 1,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 24
+    },
+    {
+      "from": "P19",
+      "to": "GG4",
+      "kind": "Gap",
+      "title": "Liang et al. (2024) → Narrow organisation or enthusiast samples\n\nGAP-053 Enthusiast sample, dated: Sample drawn from GitHub projects\nabout AI assistants (Copilot, Tabnine), so mostly enthusiasts; people\nnot interested in the tools are under-represented; survey run in\nJanuary 2023, tools have since changed.\n  Interview question: Q#1, Q#8, Q#14",
+      "value": 1,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 25
+    },
+    {
+      "from": "P4",
+      "to": "GG5",
+      "kind": "Gap",
+      "title": "Heilman et al. (2026) → Saved-time destination\n\nGAP-013 Efficiency, not total: The estimate is an efficiency effect:\ncontrolling for coding time absorbs any time saved, so the total\nproductivity effect could be larger.\n  Interview question: Q#2.3, Q#9",
+      "value": 1,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 26
+    },
+    {
+      "from": "P3",
+      "to": "GG5",
+      "kind": "Gap",
+      "title": "Cui et al. (2026) → Saved-time destination\n\nGAP-010 Saved-time destination: Coding is only one part of a\ndeveloper's job, so time saved on coding may not become extra output;\nlab gains (58% less time) far exceed the field effect (+26%).\n  Interview question: Q#2.3, Q#9",
+      "value": 1,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 27
+    },
+    {
+      "from": "P35",
+      "to": "GG5",
+      "kind": "Gap",
+      "title": "Choudhuri et al. (2026) → Saved-time destination\n\nGAP-099 Saved-time destination: Whether time saved on toil becomes\nmeaningful work or only more throughput is raised as a question, not\ntraced.\n  Interview question: Q#2.3, Q#9, Q#10",
+      "value": 1,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 28
+    },
+    {
+      "from": "P28",
+      "to": "GG6",
+      "kind": "Gap",
+      "title": "Klemmer et al. (2024) → Trust and role drift over time\n\nGAP-076 Blind-trust drift: Test whether quality gains and growing\nhabit lead to blind trust and less security checking (the authors'\nhypothesis for future research).\n  Interview question: Q#2.2, Q#8, Q#9",
+      "value": 1,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 29
+    },
+    {
+      "from": "P35",
+      "to": "GG6",
+      "kind": "Gap",
+      "title": "Choudhuri et al. (2026) → Trust and role drift over time\n\nGAP-098 Transferability, repeat measurement: Test transferability in\nother contexts; re-run the instrument periodically to see whether\ntooling improvements shift developer experience; research on goal\nmaintenance (drift) and steerability (autonomy levels).\n  Interview question: Q#8, Q#9, Q#10, Q#14",
+      "value": 1,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 30
+    },
+    {
+      "from": "P33",
+      "to": "GG6",
+      "kind": "Gap",
+      "title": "Stray et al. (2025) → Trust and role drift over time\n\nGAP-091 Workflow evolution, trust: How GenAI shapes developer\nworkflows over time, especially how teams refine their use and handle\ntrust, knowledge transfer and workflow integration.\n  Interview question: Q#5, Q#8, Q#9, Q#12",
+      "value": 1,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 31
+    },
+    {
+      "from": "P26",
+      "to": "GG6",
+      "kind": "Gap",
+      "title": "Zakharov et al. (2025) → Trust and role drift over time\n\nGAP-072 Role evolution, onboarding: How developers' conceptualisations\nof AI evolve over time, and how onboarding strategies shape role\nattribution and trust.\n  Interview question: Q#5, Q#8, Q#9",
+      "value": 1,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 32
+    },
+    {
+      "from": "P29",
+      "to": "GG6",
+      "kind": "Gap",
+      "title": "Sabouri et al. (2025) → Trust and role drift over time\n\nGAP-080 Longitudinal trust evolution: Observe developers over longer\nperiods to see how trust evolves and settles; study automation bias;\nestimate maintainability and robustness for small snippets; test how\nage, experience, education, project type and culture shape trust.\n  Interview question: Q#1, Q#8, Q#9, Q#12",
+      "value": 1,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 33
+    },
+    {
+      "from": "P52",
+      "to": "GG7",
+      "kind": "Gap",
+      "title": "Long et al. (2026) → Learning versus reliance\n\nGAP-149 Learning versus reliance: Productivity and difficulty are\nself-reported on short tasks, with no measure of learning or\ncorrectness: whether the felt gain (over 55% find work strenuous\nwithout the tool) reflects learning, reliance or both is open.\n  Interview question: Q#7, Q#8, Q#9",
+      "value": 1,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 34
+    },
+    {
+      "from": "P16",
+      "to": "GG7",
+      "kind": "Gap",
+      "title": "Ulfsnes et al. (2024) → Learning versus reliance\n\nGAP-048 Learning loop unmeasured: 13 interviews in an exploratory\nmulti-case study, with no limitations section; the change in the team\nlearning loop (asking GenAI instead of coworkers) is reported, not\nfollowed over time or measured.\n  Interview question: Q#8, Q#12",
+      "value": 1,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 35
+    },
+    {
+      "from": "P40",
+      "to": "GG7",
+      "kind": "Gap",
+      "title": "Nguyen et al. (2024) → Learning versus reliance\n\nGAP-113 Learning unmeasured: Learning outcomes were not studied\nexplicitly; the authors find only mixed support for Code LLMs as\nteaching tools.\n  Interview question: Q#7, Q#8, Q#14",
+      "value": 1,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 36
+    },
+    {
+      "from": "P32",
+      "to": "GG8",
+      "kind": "Gap",
+      "title": "Giray et al. (2026) → Expertise redistribution, validation\n\nGAP-088 Expertise redistribution: Longitudinal research on how\nexpertise is redistributed (problem framing, creation, delegation,\nvalidation, judgement) and how this affects learning and professional\ndevelopment.\n  Interview question: Q#7, Q#8, Q#14",
+      "value": 1,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 37
+    },
+    {
+      "from": "P46",
+      "to": "GG8",
+      "kind": "Gap",
+      "title": "Amalfitano et al. (2026) → Expertise redistribution, validation\n\nGAP-129 Untested expertise claims: Roadmap claims about eroding human\nexpertise and accountability are not yet tested against practitioners'\naccounts.\n  Interview question: Q#7, Q#9, Q#14",
+      "value": 1,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 38
+    },
+    {
+      "from": "P9",
+      "to": "GG8",
+      "kind": "Gap",
+      "title": "Huang et al. (2026) → Expertise redistribution, validation\n\nGAP-029 Single-session observation: Each observation was one 45-minute\nsession, so no longitudinal use or full development cycle.\n  Interview question: Q#2, Q#8",
+      "value": 1,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 39
+    },
+    {
+      "from": "P30",
+      "to": "GG8",
+      "kind": "Gap",
+      "title": "Choudhuri et al. (2025) → Expertise redistribution, validation\n\nGAP-082 Longitudinal, GenAI-specific constructs: Use longitudinal data\nand control for familiarity and demographics; examine GenAI-specific\nconstructs such as ease of prompting and tinkering with prompt\nstrategies; trust may differ by work context (e.g. design vs testing).\n  Interview question: Q#6, Q#7, Q#8, Q#9",
+      "value": 1,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 40
+    },
+    {
+      "from": "P37",
+      "to": "GG8",
+      "kind": "Gap",
+      "title": "Nguyen-Duc & Khanna (2024) → Expertise redistribution, validation\n\nGAP-104 Objective, longitudinal validation: Evaluate the task list\nwith objective measurements, and run longitudinal studies in\nestablished settings to see sustained benefits and challenges; the\nauthors say they are limited in empirically supporting the value\nclaims.\n  Interview question: Q#8, Q#9",
+      "value": 1,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 41
+    },
+    {
+      "from": "P21",
+      "to": "GG9",
+      "kind": "Gap",
+      "title": "Wu et al. (2026) → Long-term quality outcomes\n\nGAP-060 Long-term quality outcomes: Study the S-IASE model where code\nquality, maintainability and long-term outcomes matter; refine its\ngranularity; run more experiments built on it.\n  Interview question: Q#9",
+      "value": 1,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 42
+    },
+    {
+      "from": "P49",
+      "to": "GG9",
+      "kind": "Gap",
+      "title": "Watanabe et al. (2026) → Long-term quality outcomes\n\nGAP-135 Acceptance-only success: Acceptance is the only success\nmeasure: long-term quality and maintainability are not followed, and\nstill-open PRs are excluded (survival bias), so slow or contested\ncases are missing.\n  Interview question: Q#2.2, Q#2.3, Q#9",
+      "value": 1,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 43
+    },
+    {
+      "from": "P5",
+      "to": "GG9",
+      "kind": "Gap",
+      "title": "Murphy-Hill et al. (2026) → Long-term quality outcomes\n\nGAP-016 Short horizon: The 16-week window is long enough to show an\nearly fade but not a long-horizon decline.\n  Interview question: Q#8, Q#9",
+      "value": 1,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 44
+    },
+    {
+      "from": "P6",
+      "to": "GG9",
+      "kind": "Gap",
+      "title": "Borg et al. (2026) → Long-term quality outcomes\n\nGAP-018 Short-term only: Only short-term maintainability is observed;\nlong-term effects need longitudinal case studies.\n  Interview question: Q#8, Q#9",
+      "value": 1,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 45
+    },
+    {
+      "from": "P51",
+      "to": "GG10",
+      "kind": "Gap",
+      "title": "Moreno-Lumbreras et al. (2026) → Hidden code, bloat, practice evidence\n\nGAP-145 Workplace demand untested: Whether developers in company work\nwant branching and provenance for AI output, beyond version control,\ntests and review, is untested; the case rests on a vision and ten\nvolunteers, not on observed practice.\n  Interview question: Q#2.2, Q#14",
+      "value": 1,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 46
+    },
+    {
+      "from": "P54",
+      "to": "GG10",
+      "kind": "Gap",
+      "title": "Hassan et al. (2026) → Hidden code, bloat, practice evidence\n\nGAP-157 Hidden-code acceptance: The vision hides code by default and\nmoves intent into conversation, while the cited survey says developers\nwant control and distrust output; how practitioners now split intent,\nprompts and code, and how they would take hidden code, is not\nexamined.\n  Interview question: Q#2, Q#2.2, Q#9, Q#14",
+      "value": 1,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 47
+    },
+    {
+      "from": "P6",
+      "to": "GG10",
+      "kind": "Gap",
+      "title": "Borg et al. (2026) → Hidden code, bloat, practice evidence\n\nGAP-020 Bloat, cognitive debt: Research on when LLM output improves\nmaintainability, on code bloat and cognitive debt (shallow\nunderstanding of AI-generated code), and on knowledge management in\norganisations.\n  Interview question: Q#9, Q#12, Q#14",
+      "value": 1,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 48
+    },
+    {
+      "from": "P47",
+      "to": "GG10",
+      "kind": "Gap",
+      "title": "Brun et al. (2026) → Hidden code, bloat, practice evidence\n\nGAP-131 No practice evidence: A vision for formal verification with no\nevidence from everyday practice: how reliance on generated code, trust\nand responsibility play out day to day is not examined.\n  Interview question: Q#2.2, Q#9, Q#14",
+      "value": 1,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 49
+    },
+    {
+      "from": "P25",
+      "to": "GG11",
+      "kind": "Gap",
+      "title": "Brandebusemeyer et al. (2026) → Weak outcome and load measures\n\nGAP-069 Subjective load measures: Perceived cognitive load,\nproductivity and satisfaction are individual, experience- and\ntask-dependent; objective data (physiological, keyboard and mouse) are\nstill to be analysed.\n  Interview question: Q#2.3, Q#9, Q#10",
+      "value": 1,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 50
+    },
+    {
+      "from": "P51",
+      "to": "GG11",
+      "kind": "Gap",
+      "title": "Moreno-Lumbreras et al. (2026) → Weak outcome and load measures\n\nGAP-144 Seven-part agenda: A seven-part agenda: provenance and\ncode-evolution tracking, intent-based navigation, interactive\nregeneration with constraints, parallel exploration without decision\nfatigue, continuous regeneration pipelines, sandboxing and safety, and\ncognitive load, trust and explainability.\n  Interview question: Q#3, Q#4, Q#9, Q#10",
+      "value": 1,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 51
+    },
+    {
+      "from": "P4",
+      "to": "GG11",
+      "kind": "Gap",
+      "title": "Heilman et al. (2026) → Weak outcome and load measures\n\nGAP-012 Narrow outcome measure: PR count captures activity and\nefficiency only; satisfaction, performance and communication are\nunmeasured; PR complexity is only partly captured (Azure DevOps repos\nonly).\n  Interview question: Q#9, Q#10, Q#12",
+      "value": 1,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 52
+    },
+    {
+      "from": "P10",
+      "to": "GG11",
+      "kind": "Gap",
+      "title": "Baumann et al. (2026) → Weak outcome and load measures\n\nGAP-032 Abandoned sessions missing: Abandoned sessions are missing\n(success likely overestimated); line-level attribution can undercount\nagent code that survives in changed form; committed lines and prompt\ncharacters only proxy satisfaction and efficiency.\n  Interview question: Q#2.3, Q#9, Q#10",
+      "value": 1,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 53
+    },
+    {
+      "from": "P10",
+      "to": "GG12",
+      "kind": "Gap",
+      "title": "Baumann et al. (2026) → Effects and reasons unasked\n\nGAP-034 Pushback reasons hidden: Reasons for pushing back in about\nhalf of turns, and agent use inside companies, are not visible in\nsession logs.\n  Interview question: Q#2.2, Q#9, Q#10",
+      "value": 1,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 54
+    },
+    {
+      "from": "P12",
+      "to": "GG12",
+      "kind": "Gap",
+      "title": "Hao et al. (2024) → Effects and reasons unasked\n\nGAP-040 Effects, reasons unasked: Effects on productivity and quality\nare not measured, and the reasons developers share or refine\nconversations are inferred from text, not asked.\n  Interview question: Q#2.3, Q#7, Q#9",
+      "value": 1,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 55
+    },
+    {
+      "from": "P3",
+      "to": "GG12",
+      "kind": "Gap",
+      "title": "Cui et al. (2026) → Effects and reasons unasked\n\nGAP-009 Code quality effects: A more extensive study of code quality,\nsince effects look heterogeneous (build success fell at Accenture, no\ndecline at Microsoft).\n  Interview question: Q#2.3, Q#9",
+      "value": 1,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 56
+    },
+    {
+      "from": "P50",
+      "to": "GG12",
+      "kind": "Gap",
+      "title": "Li et al. (2026) → Effects and reasons unasked\n\nGAP-139 Effects, not use: Effect, not use: study how ChatGPT affects\nproductivity, code quality and defect rates in controlled experiments\nwith and without it; the paper describes use only and measures no\noutcome.\n  Interview question: Q#2.3, Q#9",
+      "value": 1,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 57
+    },
+    {
+      "from": "P26",
+      "to": "GG12",
+      "kind": "Gap",
+      "title": "Zakharov et al. (2025) → Effects and reasons unasked\n\nGAP-071 Roles versus outcomes: A short, correlational study with no\noutcome measures: whether the roles developers assign to AI change\nquality, speed or reliance is untested.\n  Interview question: Q#2.3, Q#9, Q#12",
+      "value": 1,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 58
+    },
+    {
+      "from": "P20",
+      "to": "GG13",
+      "kind": "Gap",
+      "title": "Mozannar et al. (2024) → Researcher-set short tasks\n\nGAP-055 Short Python tasks: Time-limited tasks set by the authors,\nmostly Python (2 of 21 used C++ or JavaScript); each segment assumed\nto hold one state; longer-term costs such as security vulnerabilities\nand over-reliance not captured.\n  Interview question: Q#8, Q#9, Q#10",
+      "value": 1,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 59
+    },
+    {
+      "from": "P18",
+      "to": "GG13",
+      "kind": "Gap",
+      "title": "Barke et al. (2023) → Researcher-set short tasks\n\nGAP-051 Researcher-set authorship tasks: Tasks were set by the\nresearchers, not participants' own projects or time pressure, and\ncovered code authorship only (no refactoring, testing or debugging).\n  Interview question: Q#2, Q#6",
+      "value": 1,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 60
+    },
+    {
+      "from": "P22",
+      "to": "GG13",
+      "kind": "Gap",
+      "title": "Chen et al. (2025) → Researcher-set short tasks\n\nGAP-061 Student, timed tasks: Time-limited tasks set by the\nresearchers and scored by test cases passed; participants all\nstudents; web-based editor, not an enterprise IDE; chat-based\nconditions only.\n  Interview question: Q#1, Q#2",
+      "value": 1,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 61
+    },
+    {
+      "from": "P7",
+      "to": "GG14",
+      "kind": "Gap",
+      "title": "Chen et al. (2026) → Student samples, short tasks\n\nGAP-022 Students, short tasks: Mostly students with no prior agent\nexperience, a few pre-defined single tasks, popular languages;\nplanning and specification with AI are left for future work.\n  Interview question: Q#1, Q#2, Q#6",
+      "value": 1,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 62
+    },
+    {
+      "from": "P18",
+      "to": "GG14",
+      "kind": "Gap",
+      "title": "Barke et al. (2023) → Student samples, short tasks\n\nGAP-052 Academic, novice sample: 20 participants skewed to academia;\n11 were first-time Copilot users (sometimes over-reliant); other tasks\nand languages could change the interactions.\n  Interview question: Q#1, Q#8, Q#9",
+      "value": 1,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 63
+    },
+    {
+      "from": "P27",
+      "to": "GG14",
+      "kind": "Gap",
+      "title": "Perry et al. (2023) → Student samples, short tasks\n\nGAP-073 Student sample: Participants were mainly university students,\nwho may not represent regular users; professional developers may have\nstronger security backgrounds and more incentive to test code.\n  Interview question: Q#1, Q#2.2, Q#9",
+      "value": 1,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 64
+    },
+    {
+      "from": "P20",
+      "to": "GG14",
+      "kind": "Gap",
+      "title": "Mozannar et al. (2024) → Student samples, short tasks\n\nGAP-057 Value beyond correctness: Find metrics beyond code correctness\nthat capture the value added for users.\n  Interview question: Q#2.3, Q#9",
+      "value": 1,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 65
+    },
+    {
+      "from": "P50",
+      "to": "GG15",
+      "kind": "Gap",
+      "title": "Li et al. (2026) → Shared public chats only\n\nGAP-138 Shared public chats: Only conversations developers chose to\nshare on public GitHub (English, ChatGPT, May 2023 to June 2024), with\nsome noise and duplicates: private, company and unshared use, other\ntools and later models are not seen, and patterns may have shifted\nsince.\n  Interview question: Q#2, Q#3, Q#8",
+      "value": 1,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 66
+    },
+    {
+      "from": "P12",
+      "to": "GG15",
+      "kind": "Gap",
+      "title": "Hao et al. (2024) → Shared public chats only\n\nGAP-038 Shared chats only: Only conversations developers shared in\nGitHub PRs and issues (DevGPT, data up to October 2023); results may\nnot generalise to other conversations or platforms, and the dataset\nmisses the last turn of multi-turn conversations. The authors invite\nreplication on larger or other open-source data.\n  Interview question: Q#2, Q#3, Q#8",
+      "value": 1,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 67
+    },
+    {
+      "from": "P13",
+      "to": "GG15",
+      "kind": "Gap",
+      "title": "Ehsani et al. (2026) → Shared public chats only\n\nGAP-041 Shared issue chats: Only conversations developers shared in\nGitHub issue threads; results may not generalise to unshared\nconversations or to other LLMs (e.g. Llama, Copilot); manual coding\ncarries some subjectivity.\n  Interview question: Q#2, Q#3",
+      "value": 1,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 68
+    },
+    {
+      "from": "P22",
+      "to": "GG16",
+      "kind": "Gap",
+      "title": "Chen et al. (2025) → Wider users, tools, agents\n\nGAP-062 Wider users, tools: Test proactive assistants with a wider\nrange of users and tasks, and alongside other tools such as code\ncompletion.\n  Interview question: Q#1, Q#2, Q#3, Q#6\nGAP-063 Better proactive triggers: Improve proactive assistants\n(longer context, ranking, better triggers, fewer hallucinations); the\npreview design may not suit validation.\n  Interview question: Q#3, Q#10, Q#14",
+      "value": 2,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 69
+    },
+    {
+      "from": "P28",
+      "to": "GG16",
+      "kind": "Gap",
+      "title": "Klemmer et al. (2024) → Wider users, tools, agents\n\nGAP-077 General-purpose assistant security: Study the security impact\nof general-purpose assistants (used more than coding assistants) and\ncompare AI assistants with other advice sources such as Google and\nStack Overflow.\n  Interview question: Q#2, Q#6, Q#9",
+      "value": 1,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 70
+    },
+    {
+      "from": "P52",
+      "to": "GG16",
+      "kind": "Gap",
+      "title": "Long et al. (2026) → Wider users, tools, agents\n\nGAP-147 Agent interaction uncovered: Findings apply to\ncompletion-centred assistants: the authors expect interaction with\nautonomous agents to be 'fundamentally different', and the study does\nnot cover it.\n  Interview question: Q#2, Q#3",
+      "value": 1,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 71
+    },
+    {
+      "from": "P1",
+      "to": "GG17",
+      "kind": "Gap",
+      "title": "Becker et al. (2025) → Setting-bound gains\n\nGAP-001 Setting-bound sample: Setting-bound: 16 experienced\nopen-source developers on large, mature repos they know well; the\nauthors caution against generalising and expect gains in greenfield or\nunfamiliar code.\n  Interview question: Q#2, Q#8, Q#9",
+      "value": 1,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 72
+    },
+    {
+      "from": "P2",
+      "to": "GG17",
+      "kind": "Gap",
+      "title": "Paradis et al. (2025) → Setting-bound gains\n\nGAP-007 Why gains differ: Explain the mechanisms behind unequal speed\ngains, e.g. why developers who code more hours a day gained more\n(large but not significant interaction).\n  Interview question: Q#1, Q#9",
+      "value": 1,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 73
+    },
+    {
+      "from": "P23",
+      "to": "GG18",
+      "kind": "Gap",
+      "title": "Ziegler et al. (2026) → Newer agents, narrow tasks\n\nGAP-064 Newer agents untested: Sessions began in August 2025 on\nCopilot with GPT-5; coding agents (Claude Code, Codex) have since\nbecome popular. The authors expect agents to close part of the gap but\nnot the difficulty of judging the scope of edits.\n  Interview question: Q#2, Q#3, Q#8, Q#9",
+      "value": 1,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 74
+    },
+    {
+      "from": "P49",
+      "to": "GG18",
+      "kind": "Gap",
+      "title": "Watanabe et al. (2026) → Newer agents, narrow tasks\n\nGAP-134 Enthusiastic early phase: Only Claude Code PRs in public\nopen-source projects, within ten weeks of its release: the authors\ncall this an 'enthusiastic phase' (e.g. 'I wanted to try Claude\nCode'). Other agents, private company code and steady-state use are\nnot covered.\n  Interview question: Q#2, Q#3, Q#8",
+      "value": 1,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 75
+    },
+    {
+      "from": "P2",
+      "to": "GG18",
+      "kind": "Gap",
+      "title": "Paradis et al. (2025) → Newer agents, narrow tasks\n\nGAP-005 Narrow task setting: One task of at most 3 hours, Google\nengineers and internal AI tools (summer 2024); the authors cannot rule\nout bias from evaluating their own team's tools and cannot assume the\neffect holds across tools or over time.\n  Interview question: Q#2, Q#3, Q#8",
+      "value": 1,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 76
+    },
+    {
+      "from": "P15",
+      "to": "GG18",
+      "kind": "Gap",
+      "title": "Liukko et al. (2024) → Newer agents, narrow tasks\n\nGAP-047 Single student team: A single student team on one project with\n2023 models: transfer to professional teams and current tools is\nuntested.\n  Interview question: Q#1, Q#8, Q#12",
+      "value": 1,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 77
+    },
+    {
+      "from": "P27",
+      "to": "GG18",
+      "kind": "Gap",
+      "title": "Perry et al. (2023) → Newer agents, narrow tasks\n\nGAP-074 Current models untested: The assistant was built on OpenAI's\ncodex-davinci-002; whether current models and agents change the\nsecurity effect, and whether professionals' checking offsets it, is\nuntested.\n  Interview question: Q#2, Q#3, Q#8, Q#9",
+      "value": 1,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 78
+    },
+    {
+      "from": "P52",
+      "to": "GG19",
+      "kind": "Gap",
+      "title": "Long et al. (2026) → Single-university sessions\n\nGAP-148 Low-interaction students: Study students who interact little\n(distrust, frustration, deliberate independence) and test which\nsequences, e.g. asking for explanations before accepting or refining\nprompts, lead to better knowledge and skills.\n  Interview question: Q#2.2, Q#7, Q#10, Q#14\nGAP-146 Single-university lab sessions: 27 students from one\nuniversity in lab-style sessions (90 minutes per task) with tools as\nof January 2024; the behaviour model comes from the most interactive\nparticipant in each group, so low-interaction students and\nprofessionals are not represented.\n  Interview question: Q#1",
+      "value": 2,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 79
+    },
+    {
+      "from": "P44",
+      "to": "GG19",
+      "kind": "Gap",
+      "title": "Saari et al. (2024) → Single-university sessions\n\nGAP-122 Single-university snapshot: Students had finished two\nprogramming courses; both groups studied in spring 2023 when the tools\nwere new to them and to the instructor; results may reflect one\nuniversity's practices.\n  Interview question: Q#1, Q#8",
+      "value": 1,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 80
+    },
+    {
+      "from": "P23",
+      "to": "GG20",
+      "kind": "Gap",
+      "title": "Ziegler et al. (2026) → Single-tool, prompt-dependent results\n\nGAP-065 One research system: One research system (cartokit, geospatial\nmaps) and tasks chosen to be achievable with each tool yet not fully\nautomatable; other tools or tasks could give different results.\n  Interview question: Q#2, Q#3",
+      "value": 1,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 81
+    },
+    {
+      "from": "P7",
+      "to": "GG20",
+      "kind": "Gap",
+      "title": "Chen et al. (2026) → Single-tool, prompt-dependent results\n\nGAP-021 Two tools only: One copilot (GitHub Copilot) and one agent\n(OpenHands) with a fixed LLM backbone; ratings may reflect more\ncommunity knowledge of copilots; the authors encourage varying LLM\nbackbones.\n  Interview question: Q#2, Q#3, Q#9",
+      "value": 1,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 82
+    },
+    {
+      "from": "P1",
+      "to": "GG20",
+      "kind": "Gap",
+      "title": "Becker et al. (2025) → Single-tool, prompt-dependent results\n\nGAP-002 Learning, tool maturity: More AI experience, learning effects\n(skill gains vs atrophy), and more reliable or better-elicited tools\n(more tokens, prompting, repo fine-tuning) could change the result;\nthe authors say more research is needed.\n  Interview question: Q#7, Q#8, Q#9, Q#13",
+      "value": 1,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 83
+    },
+    {
+      "from": "P25",
+      "to": "GG20",
+      "kind": "Gap",
+      "title": "Brandebusemeyer et al. (2026) → Single-tool, prompt-dependent results\n\nGAP-068 Single tool, company: One tool in the controlled sessions\n(GitHub Copilot), one language (Java), one company (SAP); the authors\nexpect transfer to other assistants but say more research is needed.\n  Interview question: Q#1, Q#2, Q#3",
+      "value": 1,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 84
+    },
+    {
+      "from": "P14",
+      "to": "GG21",
+      "kind": "Gap",
+      "title": "Tufano et al. (2026) → Model change, dated snapshots\n\nGAP-045 Unknown models, prompts: Prompts, exact ChatGPT version and\nCopilot's underlying model are unknown; limited to ChatGPT and\nCopilot; manual labelling is subjective.\n  Interview question: Q#2, Q#7",
+      "value": 1,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 85
+    },
+    {
+      "from": "P50",
+      "to": "GG21",
+      "kind": "Gap",
+      "title": "Li et al. (2026) → Model change, dated snapshots\n\nGAP-141 Evolving usage, models: Follow how usage evolves beyond the\ndata window and with newer models, how prompts shape outputs, and how\nChatGPT compares with other LLMs (e.g. DeepSeek R1, Llama 3.3).\n  Interview question: Q#2, Q#3, Q#7, Q#8",
+      "value": 1,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 86
+    },
+    {
+      "from": "P40",
+      "to": "GG21",
+      "kind": "Gap",
+      "title": "Nguyen et al. (2024) → Model change, dated snapshots\n\nGAP-111 Mid-study tool change: ChatGPT was released between the pilot\nand the main experiment, so students' familiarity grew during the\nstudy (performance rose in the last month); participants had finished\nCS1 (some had forgotten concepts) and backgrounds varied.\n  Interview question: Q#1, Q#8",
+      "value": 1,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 87
+    },
+    {
+      "from": "P42",
+      "to": "GG21",
+      "kind": "Gap",
+      "title": "Tabarsi et al. (2026) → Model change, dated snapshots\n\nGAP-118 2023 tool snapshot: Interviews were held in early to mid 2023\non early ChatGPT, Bard and Copilot versions; the findings describe a\nspecific moment, not current tools.\n  Interview question: Q#2, Q#3, Q#8",
+      "value": 1,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 88
+    },
+    {
+      "from": "P1",
+      "to": "GG22",
+      "kind": "Gap",
+      "title": "Becker et al. (2025) → Token spend and pricing\n\nGAP-004 Token budgets unstudied: Token spend appears only as a\npossible factor (the authors suggest more inference compute per task\nmight speed developers up); real budgets and how limits shape\ndelegation are not studied.\n  Interview question: Q#13",
+      "value": 1,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 89
+    },
+    {
+      "from": "P5",
+      "to": "GG22",
+      "kind": "Gap",
+      "title": "Murphy-Hill et al. (2026) → Token spend and pricing\n\nGAP-017 Value per token: Token spend is noted (can reach millions of\ndollars a year), but value per token and behaviour under caps or price\nrises are not studied.\n  Interview question: Q#13",
+      "value": 1,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 90
+    },
+    {
+      "from": "P36",
+      "to": "GG22",
+      "kind": "Gap",
+      "title": "Sergeyuk et al. (2026) → Token spend and pricing\n\nGAP-103 Pricing effects unstudied: Pricing appears only as a user wish\n(reasonable, flexible pricing); how price changes or quotas alter use\nis not studied.\n  Interview question: Q#13",
+      "value": 1,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 91
+    },
+    {
+      "from": "P53",
+      "to": "GG22",
+      "kind": "Gap",
+      "title": "Migliarini et al. (2026) → Token spend and pricing\n\nGAP-153 Spend tracking unstudied: Cost and energy of safeguards appear\nas measures (latency, tokens, energy proxy) but not from practice: how\nteams track, cap and trade off AI spend is not studied.\n  Interview question: Q#13",
+      "value": 1,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 92
+    },
+    {
+      "from": "P41",
+      "to": "GG23",
+      "kind": "Gap",
+      "title": "Zacharias et al. (2026) → Causal depth, confounding\n\nGAP-116 Depth, causal testing: Study single aspects in depth, such as\nGenAI's impact on collaboration within teams; test the proposed\nconceptual model with quantitative research on causal mechanisms; keep\nanalysing the sociotechnical impact over time.\n  Interview question: Q#8, Q#12",
+      "value": 1,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 93
+    },
+    {
+      "from": "P6",
+      "to": "GG24",
+      "kind": "Gap",
+      "title": "Borg et al. (2026) → Small samples, single sessions\n\nGAP-019 Individual, small system: Individual developers only (team\ndynamics out of scope), a deliberately small system (so no\narchitectural effects), and security not investigated.\n  Interview question: Q#10, Q#12",
+      "value": 1,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 94
+    },
+    {
+      "from": "P25",
+      "to": "GG24",
+      "kind": "Gap",
+      "title": "Brandebusemeyer et al. (2026) → Small samples, single sessions\n\nGAP-070 Teams, personality, modes: How GenAI affects team dynamics and\nrelates to personality; other or multiple tools and chat modes (ask,\nedit, agent); output-correctness and confidence feedback; tools that\nadapt to the developer's mode.\n  Interview question: Q#2.2, Q#3, Q#9, Q#12",
+      "value": 1,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 95
+    },
+    {
+      "from": "P49",
+      "to": "GG24",
+      "kind": "Gap",
+      "title": "Watanabe et al. (2026) → Small samples, single sessions\n\nGAP-137 Guideline files unstudied: The advice to keep tasks small and\nto put project rules in an agent guideline file (e.g. CLAUDE.md) is\ndrawn from revision counts, not tested: how teams write, keep current\nand use such files, and whether they cut revisions, is not studied.\n  Interview question: Q#3, Q#7",
+      "value": 1,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 96
+    },
+    {
+      "from": "P29",
+      "to": "GG24",
+      "kind": "Gap",
+      "title": "Sabouri et al. (2025) → Small samples, single sessions\n\nGAP-079 Small Python samples: Small samples (29 survey respondents, 10\nobserved developers, 15 experts); survey on Python code only;\n60-minute sessions on side projects or backlog code show only\nshort-term trust; no firm conclusions on differences between\ndevelopers or on personality.\n  Interview question: Q#1, Q#9, Q#12",
+      "value": 1,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 97
+    },
+    {
+      "from": "P51",
+      "to": "GG24",
+      "kind": "Gap",
+      "title": "Moreno-Lumbreras et al. (2026) → Small samples, single sessions\n\nGAP-142 Small, single-file sessions: Ten volunteers in single sessions\non one-file Python bug fixes with an API-key LLM backend: no\nmulti-file, team or long-term use, and prior IDE and AI experience\nvaried.\n  Interview question: Q#1, Q#2, Q#8, Q#12",
+      "value": 1,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 98
+    },
+    {
+      "from": "P24",
+      "to": "GG25",
+      "kind": "Gap",
+      "title": "Subramonyam et al. (2025) → Transferability, quantitative data\n\nGAP-066 Single preset case: A controlled design study with one preset\nuse case (marketing content); may not represent real teams, industries\nor team structures; no domain experts (e.g. content creators,\ncopyright specialists).\n  Interview question: Q#1, Q#2, Q#12",
+      "value": 1,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 99
+    },
+    {
+      "from": "P55",
+      "to": "GG25",
+      "kind": "Gap",
+      "title": "Torun et al. (2026) → Transferability, quantitative data\n\nGAP-161 Bug-type transferability: Adapt the approach to bug types\n(crash vs functional, performance or usability bugs), domains such as\ngames, and different team structures; the design assumes dedicated\nroles such as product managers.\n  Interview question: Q#2, Q#6, Q#12",
+      "value": 1,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 100
+    },
+    {
+      "from": "P17",
+      "to": "GG26",
+      "kind": "Gap",
+      "title": "Cabrero-Daniel et al. (2024) → Perceived, not measured\n\nGAP-050 Hard-to-automate management tasks: Tasks that are hard to\nautomate but where AI help would be valuable (e.g. forming a team and\nestimating effort, preparing the backlog, breaking down stories,\nsetting sprint goals); balancing several GenAI tools with human\njudgement.\n  Interview question: Q#6, Q#12",
+      "value": 1,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 101
+    },
+    {
+      "from": "P50",
+      "to": "GG26",
+      "kind": "Gap",
+      "title": "Li et al. (2026) → Perceived, not measured\n\nGAP-140 Early-phase absence unexplained: Why requirements and design\nconversations are so rare is conjecture from the counts (context\nlimits, preference for human judgement): whether developers hold back,\nfind the tool weak there, or simply do not share is not asked.\n  Interview question: Q#6, Q#7, Q#10",
+      "value": 1,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 102
+    },
+    {
+      "from": "P19",
+      "to": "GG26",
+      "kind": "Gap",
+      "title": "Liang et al. (2024) → Perceived, not measured\n\nGAP-054 Perceived, not measured: Frequencies are perceived, not\nmeasured; the authors say in-situ data would be more appropriate;\nrecall bias.\n  Interview question: Q#6",
+      "value": 1,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 103
+    },
+    {
+      "from": "P9",
+      "to": "GG27",
+      "kind": "Gap",
+      "title": "Huang et al. (2026) → Interface design, steering, stability\n\nGAP-030 Steering interfaces needed: Better interfaces for steering\nagents (testing, UI debugging, understanding failures, planning) and\nrigorous studies of best practices among the most productive\ndevelopers, then checks that agents measurably help.\n  Interview question: Q#3, Q#6, Q#7, Q#14",
+      "value": 1,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 104
+    },
+    {
+      "from": "P1",
+      "to": "GG27",
+      "kind": "Gap",
+      "title": "Becker et al. (2025) → Interface design, steering, stability\n\nGAP-003 Why perceptions differ: Ask developers to explain the gap\nbetween forecast (24% faster), belief (20% faster) and the measured\n19% slowdown on a recent task.\n  Interview question: Q#2.3, Q#9",
+      "value": 1,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 105
+    },
+    {
+      "from": "P34",
+      "to": "GG27",
+      "kind": "Gap",
+      "title": "Fetzer et al. (2026) → Interface design, steering, stability\n\nGAP-095 Agents, regulation gap: Explore architectures of GenAI-based\nmulti-agent systems and their autonomy, and bridge the gap between\nnormative initiatives (e.g. the EU AI Act) and practical approaches.\n  Interview question: Q#3, Q#4, Q#14",
+      "value": 1,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 106
+    },
+    {
+      "from": "P7",
+      "to": "GG27",
+      "kind": "Gap",
+      "title": "Chen et al. (2026) → Interface design, steering, stability\n\nGAP-024 Explainable agent design: Design work on agents that explain\nwhat they did and why, balance proactivity, and make good use of human\neffort.\n  Interview question: Q#3, Q#10, Q#14",
+      "value": 1,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 107
+    },
+    {
+      "from": "P36",
+      "to": "GG27",
+      "kind": "Gap",
+      "title": "Sergeyuk et al. (2026) → Interface design, steering, stability\n\nGAP-102 Broader sample, stability: Recruit across experience levels\nand IDE ecosystems; study how time affects the stability of personas\nand feature preferences; find ways to act on needs that tool builders\nrecognise but deprioritise (e.g. proactivity, maintenance).\n  Interview question: Q#1, Q#3, Q#8, Q#14",
+      "value": 1,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 108
+    },
+    {
+      "from": "P55",
+      "to": "GG28",
+      "kind": "Gap",
+      "title": "Torun et al. (2026) → Oversight and role displacement\n\nGAP-159 Oversight placement, order: Where to place human oversight\n(before or after assignment), in what order to run the steps (classify\nbefore reproduce?), and how automation changes the work of testers,\nsupport and operations are open questions.\n  Interview question: Q#2.1, Q#2.2, Q#6, Q#12\nGAP-160 Role displacement conjecture: Role displacement, fear of job\nloss and deskilling are predicted, with advice (automation boundaries\nper role, reskilling, phased roll-out), but nobody was asked: how\ntesters, support and operations staff would react is conjecture.\n  Interview question: Q#12, Q#14",
+      "value": 2,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 109
+    },
+    {
+      "from": "P7",
+      "to": "GG29",
+      "kind": "Gap",
+      "title": "Chen et al. (2026) → Ecosystem-level impact\n\nGAP-023 Fast-moving snapshot: A snapshot of April-May 2025; the impact\nof more AI autonomy will keep evolving.\n  Interview question: Q#8, Q#13",
+      "value": 1,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 110
+    },
+    {
+      "from": "P42",
+      "to": "GG30",
+      "kind": "Gap",
+      "title": "Tabarsi et al. (2026) → Junior and mentor views\n\nGAP-119 Junior roles open: The authors' own comparison with later\nstudies finds that expectations about code quality, test automation\nand the impact on junior roles have been tempered; what happens to\njunior roles remains open.\n  Interview question: Q#12, Q#14",
+      "value": 1,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 111
+    },
+    {
+      "from": "P36",
+      "to": "GG30",
+      "kind": "Gap",
+      "title": "Sergeyuk et al. (2026) → Junior and mentor views\n\nGAP-100 Senior-skewed sample: Interviewees were mostly senior (28\nseniors, 5 mid-level, 2 juniors), which may under-represent juniors'\nneeds; participants were JetBrains users, and prediction-market\nparticipants were JetBrains staff with possible insider knowledge.\n  Interview question: Q#1, Q#12, Q#14",
+      "value": 1,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 112
+    },
+    {
+      "from": "P39",
+      "to": "GG30",
+      "kind": "Gap",
+      "title": "Kam et al. (2025) → Junior and mentor views\n\nGAP-110 Junior, mentor views: Whether the listed skill needs match\nwhat juniors, mentors and hiring managers experience is untested; the\nworkshop drew on developers at the cutting edge of AI use.\n  Interview question: Q#1, Q#7, Q#12, Q#14",
+      "value": 1,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 113
+    },
+    {
+      "from": "P33",
+      "to": "GG32",
+      "kind": "Gap",
+      "title": "Stray et al. (2025) → Self-selection, non-randomised groups\n\nGAP-090 Satisfaction self-selection: Users report higher job\nsatisfaction than non-users (87% vs 73%), which the authors say may\nstem from self-selection.\n  Interview question: Q#10\nGAP-092 Adoption framework refinement: Validate and refine the HACAF\nadoption framework; ethical concerns were a central hindrance for\nnon-users but are not in the framework.\n  Interview question: Q#4, Q#5, Q#10, Q#13",
+      "value": 2,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 114
+    },
+    {
+      "from": "P37",
+      "to": "GG32",
+      "kind": "Gap",
+      "title": "Nguyen-Duc & Khanna (2024) → Self-selection, non-randomised groups\n\nGAP-105 Non-coding task delegation: Which non-coding tasks people\nactually hand to GenAI, and what they hold back, needs interviews with\nproduct owners, managers and other roles.\n  Interview question: Q#6, Q#12",
+      "value": 1,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 115
+    },
+    {
+      "from": "P41",
+      "to": "GG33",
+      "kind": "Gap",
+      "title": "Zacharias et al. (2026) → Conceptual, no practitioner data\n\nGAP-114 Chatbot-era data: Fast-moving field: the data are from the\nchatbot era, while agentic systems that coordinate whole projects are\nnewer; findings on SDLC phases are suggestive, not conclusive.\n  Interview question: Q#2, Q#3, Q#8",
+      "value": 1,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 116
+    },
+    {
+      "from": "P53",
+      "to": "GG33",
+      "kind": "Gap",
+      "title": "Migliarini et al. (2026) → Conceptual, no practitioner data\n\nGAP-152 No practitioner input: Built from literature and governance\ntexts, with no interviews or field data: how organisations actually\nset, version and enforce prompt rules, who decides, and what\npractitioners know about workarounds, is not examined; the model and\ncards are not checked with practitioners.\n  Interview question: Q#4, Q#11, Q#12",
+      "value": 1,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 117
+    },
+    {
+      "from": "P34",
+      "to": "GG34",
+      "kind": "Gap",
+      "title": "Fetzer et al. (2026) → Governance, silent use\n\nGAP-096 Developer-use governance: Governance of developers' own use of\nAI tools (as opposed to building GenAI products) is not covered.\n  Interview question: Q#4",
+      "value": 1,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 118
+    },
+    {
+      "from": "P54",
+      "to": "GG34",
+      "kind": "Gap",
+      "title": "Hassan et al. (2026) → Governance, silent use\n\nGAP-156 Teammate ownership, equity: Who owns a personalised AI\nteammate when its developer leaves (company IP or personal asset), and\nhow to keep an infrastructure-heavy way of working accessible,\nequitable and fair.\n  Interview question: Q#4, Q#13",
+      "value": 1,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 119
+    },
+    {
+      "from": "P11",
+      "to": "GG34",
+      "kind": "Gap",
+      "title": "Tang et al. (2026) → Governance, silent use\n\nGAP-036 Silent workarounds invisible: Only misalignment that\ndevelopers voiced is visible; silent workarounds are absent (unevenly\nby category); for 26.85% of episodes the cause is not visible and\nneeds richer instrumentation such as project-state snapshots.\n  Interview question: Q#4, Q#11",
+      "value": 1,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 120
+    },
+    {
+      "from": "P14",
+      "to": "GG34",
+      "kind": "Gap",
+      "title": "Tufano et al. (2026) → Governance, silent use\n\nGAP-044 Self-admitted use only: Only self-admitted use (commits,\nissues, PRs) in public GitHub repos; silent use, private code and code\ncomments are unseen. The authors note that real usage would need other\ninstruments, such as AI-code recognition or developer surveys and\ninterviews.\n  Interview question: Q#2, Q#5",
+      "value": 1,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 121
+    },
+    {
+      "from": "P28",
+      "to": "GG35",
+      "kind": "Gap",
+      "title": "Klemmer et al. (2024) → Single-company limits\n\nGAP-078 Rule-setters not interviewed: Company policies are driven by\ncompliance, and participants were rarely involved in setting them; the\npeople who set the rules were not interviewed.\n  Interview question: Q#4, Q#12",
+      "value": 1,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 122
+    },
+    {
+      "from": "P49",
+      "to": "GG36",
+      "kind": "Gap",
+      "title": "Watanabe et al. (2026) → Method scope, metrics\n\nGAP-136 Quiet reviewer scepticism: Quantify the cost of building\ntrust: reviewer scepticism may act quietly (slow reviews, repeated\nrevision requests) and rarely shows as a stated reason; the authors\nsuggest mixed-method work that pairs review analytics with developer\ninterviews.\n  Interview question: Q#2.2, Q#9, Q#10",
+      "value": 1,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 123
+    },
+    {
+      "from": "P13",
+      "to": "GG36",
+      "kind": "Gap",
+      "title": "Ehsani et al. (2026) → Method scope, metrics\n\nGAP-043 Helpfulness judged externally: Helpfulness was judged from the\nthread (clone detection, manual inspection), not reported by the\ndevelopers who used the conversation.\n  Interview question: Q#2.3, Q#10",
+      "value": 1,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 124
+    },
+    {
+      "from": "P8",
+      "to": "GG36",
+      "kind": "Gap",
+      "title": "Otten et al. (2026) → Method scope, metrics\n\nGAP-027 Iteration and skill: Iteration correlates with skill and\nproductivity; study iterative methods further, e.g. letting users edit\nmodel parameters mid-conversation.\n  Interview question: Q#7, Q#8, Q#9",
+      "value": 1,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 125
+    },
+    {
+      "from": "P8",
+      "to": "GG37",
+      "kind": "Gap",
+      "title": "Otten et al. (2026) → Taxonomy, guidelines untested\n\nGAP-026 Incomplete prompting taxonomy: The prompting taxonomy is\nincomplete (users also avoided explanations or examples); the authors\ncall for a comprehensive taxonomy of interaction types to compare\neffectiveness across tasks and user groups.\n  Interview question: Q#7, Q#12",
+      "value": 1,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 126
+    },
+    {
+      "from": "P43",
+      "to": "GG37",
+      "kind": "Gap",
+      "title": "O'Brien (2025) → Taxonomy, guidelines untested\n\nGAP-121 Multi-site surveys, probes: Surveys at several universities\nand institutes on how scientists choose tools, design probes for the\nsupport scientists lack (translation, documentation, test generation),\nand community discussion of acceptable LLM practice and code testing\nin science.\n  Interview question: Q#2, Q#2.2, Q#4, Q#6",
+      "value": 1,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 127
+    },
+    {
+      "from": "P45",
+      "to": "GG38",
+      "kind": "Gap",
+      "title": "Hou et al. (2024) → Cost, trust, practice coverage\n\nGAP-125 Cost, trust, interpretability: Open challenges named by the\nauthors: applicability and cost, generalisability, evaluation metrics,\ninterpretability, trustworthiness and ethical use.\n  Interview question: Q#3, Q#4, Q#9, Q#13\nGAP-126 Practice coverage thin: Covers models, tasks and benchmarks;\nhow practitioners and organisations use the tools is barely covered,\nand software management appears in only 3 of 395 papers.\n  Interview question: Q#5, Q#6, Q#12",
+      "value": 2,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 128
+    },
+    {
+      "from": "P46",
+      "to": "GG38",
+      "kind": "Gap",
+      "title": "Amalfitano et al. (2026) → Cost, trust, practice coverage\n\nGAP-128 Per-form challenges: A research agenda of challenges for each\nform of augmentation, e.g. human-agent balance, user trust, control\nand override, legal and ethical assurance, benchmarks, and cost and\nsustainability.\n  Interview question: Q#4, Q#9, Q#10, Q#13",
+      "value": 1,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 129
+    },
+    {
+      "from": "P31",
+      "to": "GG38",
+      "kind": "Gap",
+      "title": "Yu et al. (2026) → Cost, trust, practice coverage\n\nGAP-083 Three organisations: Three organisations, so the metrics may\nnot generalise to other industries or regions; the study judges\noutputs and quality in practice, not the models themselves\n(cost-performance, licensing, infrastructure).\n  Interview question: Q#2.3, Q#3, Q#9, Q#13",
+      "value": 1,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 130
+    },
+    {
+      "from": "P53",
+      "to": "GG39",
+      "kind": "Gap",
+      "title": "Migliarini et al. (2026) → Open agenda, rapid change\n\nGAP-151 Four research questions: Four research questions with study\nblueprints: effect of policy and context binding plus provenance on\nreview quality and speed; transfer and robustness across models,\nversions and repositories; cost of safeguards and selective\nactivation; observable thresholds for escalating beyond the prompt\nlayer.\n  Interview question: Q#3, Q#4, Q#9, Q#13",
+      "value": 1,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 131
+    },
+    {
+      "from": "P54",
+      "to": "GG39",
+      "kind": "Gap",
+      "title": "Hassan et al. (2026) → Open agenda, rapid change\n\nGAP-155 People questions undeveloped: People questions are listed but\nnot developed: what a good engineer is in the SE 3.0 era, how to train\nthe next generation and redesign curricula, and how job offerings and\nthe motivation of engineers who love coding will change.\n  Interview question: Q#7, Q#10, Q#14",
+      "value": 1,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 132
+    },
+    {
+      "from": "P14",
+      "to": "GG39",
+      "kind": "Gap",
+      "title": "Tufano et al. (2026) → Open agenda, rapid change\n\nGAP-046 Unexplained use shift: Why use shifted in two years (more\ndebugging help and learning; less refactoring, code review and comment\nwriting; fading privacy and context-window worries) is not explained.\n  Interview question: Q#6, Q#8",
+      "value": 1,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 133
+    },
+    {
+      "from": "P36",
+      "to": "GG39",
+      "kind": "Gap",
+      "title": "Sergeyuk et al. (2026) → Open agenda, rapid change\n\nGAP-101 Rapid-change period: Fieldwork (2024 to mid-2025) fell in a\nperiod of rapid change; needs, trust and priorities may shift as tools\nmature; thematic patterns cannot be statistically validated.\n  Interview question: Q#8, Q#9, Q#10, Q#13",
+      "value": 1,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 134
+    },
+    {
+      "from": "P24",
+      "to": "GG40",
+      "kind": "Gap",
+      "title": "Subramonyam et al. (2025) → Vision without evaluation\n\nGAP-067 Wider use cases: How teams map a wider range of use cases, how\nprototypes can be aligned with harm and bias concerns, and how to\ngather interface-level (not only output-level) feedback.\n  Interview question: Q#4, Q#6, Q#10, Q#14",
+      "value": 1,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 135
+    },
+    {
+      "from": "P34",
+      "to": "GG40",
+      "kind": "Gap",
+      "title": "Fetzer et al. (2026) → Vision without evaluation\n\nGAP-093 Single car maker: Built with one German premium car maker;\nmore practitioners and other business domains would strengthen\ntransferability; only three GenAI use cases were observed and the\nevolution stage is out of scope.\n  Interview question: Q#2, Q#6, Q#8",
+      "value": 1,
+      "color": {
+        "color": "#E45756",
+        "opacity": 0.45
+      },
+      "id": 136
+    }
+  ]
+}
