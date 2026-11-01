@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Findings, gaps &amp; papers</title>
+<script src="https://unpkg.com/vis-network@9.1.9/standalone/umd/vis-network.min.js"></script>
+<script src="graph_data.js"></script>
+<style>
+  html, body { margin: 0; height: 100%; font-family: system-ui, sans-serif; background: #fff; }
+  #network { position: absolute; inset: 0; }
+  #panel { position: absolute; top: 12px; left: 12px; z-index: 2; background: rgba(255,255,255,.94);
+           border: 1px solid #ddd; border-radius: 8px; padding: 10px 14px; font-size: 13px; max-width: 290px; }
+  #panel h1 { font-size: 15px; margin: 0 0 6px; }
+  #panel label { display: block; margin: 3px 0; cursor: pointer; }
+  .sw { display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 6px; }
+  .line { display: inline-block; width: 18px; margin-right: 6px; vertical-align: middle; }
+  .head { margin-top: 8px; font-weight: 600; }
+  #panel input[type=search] { width: 100%; box-sizing: border-box; margin-top: 8px; padding: 4px 6px; }
+  #panel input[type=range] { width: 100%; }
+  .stats { color: #666; margin-top: 6px; }
+  .error { color: #b00; }
+  div.vis-tooltip { white-space: pre-wrap !important; max-width: 520px; font-size: 12px;
+                    line-height: 1.35; padding: 8px 10px; }
+</style>
+</head>
+<body>
+<div id="panel">
+  <h1 id="heading">Loading…</h1>
+  <label><input type="checkbox" id="showFinding" checked> &#9670; Findings</label>
+  <label><input type="checkbox" id="showGap" checked> &#9650; Gaps</label>
+  <label><input type="checkbox" id="showPaper" checked>
+    <span class="sw" id="paperSwatch" style="border-radius:50%"></span>Papers</label>
+  <label><input type="checkbox" id="showShared" checked>
+    <span class="line" id="sharedSwatch"></span>Shared-paper links</label>
+  <div class="head">Category</div>
+  <div id="categories"></div>
+  <div class="head">Min. shared papers: <span id="minVal">1</span></div>
+  <input type="range" id="minShared" min="1" max="1" value="1">
+  <input type="search" id="search" placeholder="Search nodes…">
+  <div class="stats"><span id="stats"></span><br>Line thickness = papers in common.<br>Hover for details, click to highlight.</div>
+</div>
+<div id="network"></div>
+<script>
+if (typeof GRAPH_DATA === "undefined") {
+  document.getElementById("heading").textContent = "Could not load graph_data.js";
+  document.getElementById("stats").innerHTML =
+    '<span class="error">Keep graph_data.js in the same folder as this page.</span>';
+} else {
+  draw(GRAPH_DATA);
+}
+
+function draw(data) {
+  const { title, stats, colors, categoryColors } = data;
+  document.title = title;
+  document.getElementById("heading").textContent = title;
+  document.getElementById("stats").textContent =
+    `${stats.findings} findings · ${stats.gaps} gaps · ${stats.papers} papers · ` +
+    `${stats.shared_links} shared-paper links (max ${stats.max_shared})`;
+  document.getElementById("paperSwatch").style.background = colors.paper;
+  document.getElementById("sharedSwatch").style.borderTop = `3px solid ${colors.shared}`;
+  document.getElementById("categories").innerHTML = Object.entries(categoryColors)
+    .map(([name, color]) => `<label><span class="sw" style="background:${color}"></span>${name}</label>`)
+    .join("");
+  document.getElementById("minShared").max = Math.max(stats.max_shared, 1);
+
+  const nodes = new vis.DataSet(data.nodes);
+  const edges = new vis.DataSet(data.edges);
+  const show = { Finding: true, Gap: true, Paper: true, shared: true };
+  let minShared = 1;
+
+  const kindOf = Object.fromEntries(data.nodes.map(n => [n.id, n.group]));
+  const edgeVisible = e => show[kindOf[e.from]] && show[kindOf[e.to]] &&
+    (e.kind === "paper" || (show.shared && e.value >= minShared));
+  const nodeView = new vis.DataView(nodes, { filter: n => show[n.group] });
+  const edgeView = new vis.DataView(edges, { filter: edgeVisible });
+
+  const network = new vis.Network(document.getElementById("network"),
+    { nodes: nodeView, edges: edgeView }, {
+      nodes: { font: { size: 13 }, scaling: { min: 8, max: 34 } },
+      edges: { smooth: false, scaling: { min: 1, max: 14 } },
+      physics: { solver: "forceAtlas2Based",
+                 forceAtlas2Based: { gravitationalConstant: -80, springLength: 140 },
+                 stabilization: { iterations: 400 } },
+      interaction: { hover: true, tooltipDelay: 120, navigationButtons: true }
+    });
+  network.once("stabilizationIterationsDone", () => network.setOptions({ physics: false }));
+
+  function refresh() { nodeView.refresh(); edgeView.refresh(); }
+  ["Finding", "Gap", "Paper", "Shared"].forEach(k => {
+    document.getElementById("show" + k).onchange = e => {
+      show[k === "Shared" ? "shared" : k] = e.target.checked; refresh();
+    };
+  });
+  document.getElementById("minShared").oninput = e => {
+    minShared = Number(e.target.value);
+    document.getElementById("minVal").textContent = minShared;
+    refresh();
+  };
+
+  document.getElementById("search").addEventListener("input", e => {
+    const q = e.target.value.trim().toLowerCase();
+    if (!q) { network.unselectAll(); return; }
+    const hits = nodeView.get({ filter: n => (n.label + " " + n.title).toLowerCase().includes(q) })
+                         .map(n => n.id);
+    network.selectNodes(hits);
+    if (hits.length) network.fit({ nodes: hits, animation: true });
+  });
+}
+</script>
+</body>
+</html>
