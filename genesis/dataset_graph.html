@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Interview concept groups</title>
+<script src="https://unpkg.com/vis-network@9.1.9/standalone/umd/vis-network.min.js"></script>
+<script src="dataset_graph_data.js"></script>
+<style>
+  html, body { margin: 0; height: 100%; font-family: system-ui, sans-serif; background: #fff; }
+  #network { position: absolute; inset: 0; }
+  #panel { position: absolute; top: 12px; left: 12px; z-index: 2; background: rgba(255,255,255,.94);
+           border: 1px solid #ddd; border-radius: 8px; padding: 10px 14px; font-size: 13px; max-width: 290px; }
+  #panel h1 { font-size: 15px; margin: 0 0 6px; }
+  #panel label { display: block; margin: 3px 0; cursor: pointer; }
+  .line { display: inline-block; width: 18px; margin-right: 6px; vertical-align: middle; }
+  .head { margin-top: 8px; font-weight: 600; }
+  .ramp { height: 10px; border-radius: 3px; margin-top: 4px; }
+  .ramp-labels { display: flex; justify-content: space-between; color: #666; font-size: 11px; }
+  #panel input[type=search] { width: 100%; box-sizing: border-box; margin-top: 8px; padding: 4px 6px; }
+  #panel input[type=range] { width: 100%; }
+  .stats { color: #666; margin-top: 6px; }
+  .error { color: #b00; }
+  div.vis-tooltip { white-space: pre-wrap !important; max-width: 520px; font-size: 12px;
+                    line-height: 1.35; padding: 8px 10px; }
+</style>
+</head>
+<body>
+<div id="panel">
+  <h1 id="heading">Loading…</h1>
+  <label><input type="checkbox" id="showParticipants" checked>
+    <span class="line" id="participantSwatch"></span>Same participants</label>
+  <div class="head">Min. shared participants: <span id="minPVal">1</span></div>
+  <input type="range" id="minP" min="1" max="1" value="1">
+  <div class="head">Colour = unique concepts</div>
+  <div class="ramp" id="ramp"></div>
+  <div class="ramp-labels"><span id="rampLo"></span><span id="rampHi"></span></div>
+  <input type="search" id="search" placeholder="Search groups…">
+  <div class="stats"><span id="stats"></span><br>Node size = source rows.<br>Line width = number shared.<br>Hover for details, click to highlight.</div>
+</div>
+<div id="network"></div>
+<script>
+if (typeof GRAPH_DATA === "undefined") {
+  document.getElementById("heading").textContent = "Could not load dataset_graph_data.js";
+  document.getElementById("stats").innerHTML =
+    '<span class="error">Keep dataset_graph_data.js in the same folder as this page.</span>';
+} else {
+  draw(GRAPH_DATA);
+}
+
+function draw(data) {
+  const { title, stats, colors } = data;
+  document.title = title;
+  document.getElementById("heading").textContent = title;
+  document.getElementById("stats").textContent =
+    `${stats.groups} concept groups · ${stats.participant_links} participant links`;
+  document.getElementById("participantSwatch").style.borderTop = `3px solid ${colors.participants}`;
+  document.getElementById("ramp").style.background = `linear-gradient(to right, ${colors.low}, ${colors.high})`;
+  document.getElementById("rampLo").textContent = stats.min_concepts;
+  document.getElementById("rampHi").textContent = stats.max_concepts;
+  document.getElementById("minP").max = Math.max(stats.max_participants, 1);
+
+  const nodes = new vis.DataSet(data.nodes);
+  const edges = new vis.DataSet(data.edges);
+  let showParticipants = true;
+  let minParticipants = 1;
+
+  const edgeView = new vis.DataView(edges, { filter: e => showParticipants && e.value >= minParticipants });
+
+  // Square-root scaling keeps very large groups from dwarfing the rest; size still grows with source rows.
+  const sqrtScale = (lo, hi, _total, value) =>
+    hi === lo ? 0.5 : (Math.sqrt(value) - Math.sqrt(lo)) / (Math.sqrt(hi) - Math.sqrt(lo));
+
+  const network = new vis.Network(document.getElementById("network"),
+    { nodes, edges: edgeView }, {
+      nodes: { font: { size: 14 }, borderWidth: 1,
+               scaling: { min: 8, max: 60, customScalingFunction: sqrtScale } },
+      edges: { smooth: false, scaling: { min: 0.25, max: 5 } },
+      physics: { solver: "forceAtlas2Based",
+                 forceAtlas2Based: { gravitationalConstant: -120, springLength: 220 },
+                 stabilization: { iterations: 400 } },
+      interaction: { hover: true, tooltipDelay: 120, navigationButtons: true }
+    });
+  network.once("stabilizationIterationsDone", () => network.setOptions({ physics: false }));
+
+  const refresh = () => edgeView.refresh();
+  document.getElementById("showParticipants").onchange = e => { showParticipants = e.target.checked; refresh(); };
+  document.getElementById("minP").oninput = e => {
+    minParticipants = Number(e.target.value);
+    document.getElementById("minPVal").textContent = minParticipants;
+    refresh();
+  };
+
+  document.getElementById("search").addEventListener("input", e => {
+    const q = e.target.value.trim().toLowerCase();
+    if (!q) { network.unselectAll(); return; }
+    const hits = nodes.get({ filter: n => (n.label + " " + n.title).toLowerCase().includes(q) })
+                      .map(n => n.id);
+    network.selectNodes(hits);
+    if (hits.length) network.fit({ nodes: hits, animation: true });
+  });
+}
+</script>
+</body>
+</html>
